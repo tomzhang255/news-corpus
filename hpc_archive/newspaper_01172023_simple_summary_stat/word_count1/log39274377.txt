@@ -1,0 +1,37 @@
+STARTED JOB AT: Tue Jan 17 04:17:35 EST 2023
+
+wc0
+Traceback (most recent call last):
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/compat/_optional.py", line 138, in import_optional_dependency
+    module = importlib.import_module(name)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 972, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pyarrow'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/word_count/wc0.py", line 14, in <module>
+    res = pd.read_csv('{}res{}.csv'.format(BASE, i), engine='pyarrow')
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 581, in _read
+    return parser.read(nrows)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1247, in read
+    df = self._engine.read()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/arrow_parser_wrapper.py", line 146, in read
+    pyarrow_csv = import_optional_dependency("pyarrow.csv")
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/compat/_optional.py", line 141, in import_optional_dependency
+    raise ImportError(msg)
+ImportError: Missing optional dependency 'pyarrow.csv'.  Use pip or conda to install pyarrow.csv.
+FINISHED JOB AT: Tue Jan 17 04:17:42 EST 2023
+

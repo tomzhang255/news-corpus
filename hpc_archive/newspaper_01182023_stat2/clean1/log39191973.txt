@@ -1,0 +1,12 @@
+STARTED JOB AT: Mon Jan 16 00:47:28 EST 2023
+
+2023-01-16 00:47:30.501033 (reading meta data, 1000000 rows)
+2023-01-16 00:47:31.614063 (done reading meta data, 1000000 rows)
+2023-01-16 00:47:32.192181, on 0 - 100000
+2023-01-16 00:48:00.532304 (saving csv 0)
+Traceback (most recent call last):
+  File "clean.py", line 75, in <module>
+    res.to_csv(base_clean + 'res' + i + '.csv', index=False)
+TypeError: can only concatenate str (not "int") to str
+FINISHED JOB AT: Mon Jan 16 00:48:00 EST 2023
+

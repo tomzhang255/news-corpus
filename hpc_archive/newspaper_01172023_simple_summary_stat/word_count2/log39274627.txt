@@ -1,0 +1,22 @@
+STARTED JOB AT: Tue Jan 17 05:46:59 EST 2023
+
+wc4
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/word_count2/wc4.py", line 18, in <module>
+    for chunk in reader:
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1187, in __next__
+    return self.get_chunk()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1284, in get_chunk
+    return self.read(nrows=size)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1254, in read
+    index, columns, col_dict = self._engine.read(nrows)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 225, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 817, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 861, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 847, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas/_libs/parsers.pyx", line 1960, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Buffer overflow caught - possible malformed input file.
+
+FINISHED JOB AT: Tue Jan 17 08:18:59 EST 2023
+

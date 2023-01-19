@@ -1,0 +1,7 @@
+STARTED JOB AT: Tue Jan 17 03:08:35 EST 2023
+
+/n/home13/tomzhang/ccc_lab/newspaper/word_count/wc3.py:13: DtypeWarning: Columns (1) have mixed types. Specify dtype option on import or set low_memory=False.
+  res = pd.read_csv('{}res{}.csv'.format(BASE, i))
+/var/slurmd/spool/slurmd/job39273762/slurm_script: line 18: 22337 Killed                  python wc3.py
+FINISHED JOB AT: Tue Jan 17 04:21:37 EST 2023
+

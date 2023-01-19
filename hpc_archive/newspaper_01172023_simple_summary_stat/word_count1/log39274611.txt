@@ -1,0 +1,27 @@
+STARTED JOB AT: Tue Jan 17 05:27:41 EST 2023
+
+wc0
+0      3495
+1      3394
+2      1927
+3      1095
+4        54
+       ... 
+995    2724
+996    2441
+997    2586
+998    3481
+999    3577
+Name: text, Length: 1000, dtype: int64
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/word_count/wc0.py", line 22, in <module>
+    wc_list = pd.concat([wc_list, wc_curr_chunk])
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 347, in concat
+    op = _Concatenator(
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 446, in __init__
+    max_ndim = max(ndims)
+TypeError: '>' not supported between instances of 'property' and 'int'
+FINISHED JOB AT: Tue Jan 17 05:27:46 EST 2023
+

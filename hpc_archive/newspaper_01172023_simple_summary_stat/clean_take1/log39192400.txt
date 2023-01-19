@@ -1,0 +1,9 @@
+STARTED JOB AT: Mon Jan 16 01:08:18 EST 2023
+
+2023-01-16 01:08:21.335876 (reading meta data, all rows)
+Traceback (most recent call last):
+  File "clean.py", line 19, in <module>
+    meta = pd.read_table('/n/henrich_lab/Lab/newspaperarchive_metadata/Harvard_FileDetails.txt', sep='|', errors='ignore')
+TypeError: read_table() got an unexpected keyword argument 'errors'
+FINISHED JOB AT: Mon Jan 16 01:08:21 EST 2023
+

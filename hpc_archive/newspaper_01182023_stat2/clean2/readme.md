@@ -1,0 +1,1 @@
+Solution from take1: submit separate batch jobs. Each job would only process 20 million rows from the meta data. Run into memory issues for chunks 6 and 7. All else is fine.

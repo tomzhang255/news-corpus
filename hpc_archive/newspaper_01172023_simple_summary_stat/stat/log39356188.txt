@@ -1,0 +1,11 @@
+STARTED JOB AT: Tue Jan 17 17:28:06 EST 2023
+
+2023-01-17 17:33:26.433193 (meta loaded)
+2023-01-17 17:35:43.816193 (wc loaded). Joining...
+2023-01-17 17:42:23.031598 (joined)
+2023-01-17 17:43:22.299507 (stat done)
+2023-01-17 17:43:22.299547 (saving...)
+2023-01-17 17:43:22.682090 (saved)
+Total time elapsed: 0:15:13.211038
+FINISHED JOB AT: Tue Jan 17 17:43:57 EST 2023
+
