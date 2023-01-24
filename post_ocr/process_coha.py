@@ -27,4 +27,4 @@ dic = dic.loc[dic['nchar'] >= 3]
 dic.drop('nchar', axis=1, inplace=True)
 
 # save
-dic.to_csv('../data/coha_dic.csv', index=False)
+dic.to_csv('../data/coha_dict.csv', index=False)
