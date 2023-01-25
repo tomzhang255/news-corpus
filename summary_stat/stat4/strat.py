@@ -1,5 +1,5 @@
 # for each year, sample about 200 documents, and create a data with the # of non-word errors.
-# stratified sampling with replacement because some years have < 200 documents
+# sampling with replacement because some years have < 200 documents
 
 import numpy as np
 import pandas as pd
@@ -75,7 +75,7 @@ collect()
 print(f'{datetime.now()} (saving strat sample with original text)')
 res = pd.DataFrame(res, columns=['path_id', 'year', 'text'])
 collect()
-res.to_csv('' + 'strat_sample_200.csv', index=False)
+res.to_csv(base_clean + 'strat_sample_200.csv', index=False)
 
 # done
 t2 = datetime.now()

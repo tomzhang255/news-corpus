@@ -1,0 +1,18 @@
+STARTED JOB AT: Sun Jan 15 20:43:20 EST 2023
+
+2023-01-15 20:43:21.807495 (reading meta data, 10000 rows)
+2023-01-15 20:43:22.047507 (done reading meta data, 10000 rows)
+0
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+2023-01-15 20:43:51.691247 (script finished)
+Total time elapsed: 0:00:29.883752
+FINISHED JOB AT: Sun Jan 15 20:43:51 EST 2023
+

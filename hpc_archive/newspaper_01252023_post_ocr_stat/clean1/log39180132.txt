@@ -1,0 +1,8 @@
+STARTED JOB AT: Sun Jan 15 20:47:10 EST 2023
+
+2023-01-15 20:47:12.701427 (reading meta data, 10000 rows)
+2023-01-15 20:47:12.721332 (done reading meta data, 10000 rows)
+2023-01-15 20:47:13.193937 (script finished)
+Total time elapsed: 0:00:00.492510
+FINISHED JOB AT: Sun Jan 15 20:47:48 EST 2023
+
