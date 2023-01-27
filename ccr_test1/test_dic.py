@@ -29,6 +29,8 @@ if __name__ == '__main__':
     df.dropna(subset=['text'], inplace=True)
     print(f'# documents: {df.shape[0]}')
 
+    df_original = df.copy()
+
     # standard NLP preprocessing (bag-of-words transformation)
     log('preprocessing starts')
     t1 = datetime.now()
@@ -51,6 +53,9 @@ if __name__ == '__main__':
     # create bag-of-words df from list of dictionaries
     bow_df = pd.DataFrame(counts).fillna(0).astype(int)
 
+    # concat from original
+    res = pd.concat([df_original, bow_df], axis=1)
+
     t2 = datetime.now()
     log('preprocessing ends')
     print(f'\ttime elapsed: {t2 - t1}')
@@ -59,7 +64,7 @@ if __name__ == '__main__':
     log('saving to csv...')
     t1 = datetime.now()
 
-    bow_df.to_csv('/n/henrich_lab/Lab/clean/dic1.csv', index=False)
+    res.to_csv('/n/henrich_lab/Lab/clean/dic1.csv', index=False)
 
     t2 = datetime.now()
     log('saved to csv')
