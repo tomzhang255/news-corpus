@@ -1,0 +1,508 @@
+State_Name,City_Name,Publication_Title,Publication_Date,Avg_Word_Count
+Alabama,Albany,Albany Decatur Daily,1916,2631.0
+Alabama,Albany,Albany Decatur Daily,1917,2554.0
+Alabama,Albany,Albany Decatur Daily,1918,2684.0
+Alabama,Albany,Albany Decatur Daily,1919,1936.0
+Alabama,Albany,Albany Decatur Daily,1920,1894.0
+Alabama,Albany,Albany Decatur Daily,1921,2191.0
+Alabama,Albany,Albany Decatur Daily,1922,2299.0
+Alabama,Albany,Albany Decatur Daily,1923,2207.0
+Alabama,Albany,Albany Decatur Daily,1924,2194.0
+Alabama,Albany,Albany Decatur Daily,1925,2276.0
+Alabama,Albany,Albany Decatur Daily,1926,2448.0
+Alabama,Albany,Albany Decatur Daily,1927,2669.0
+Alabama,Albany,Albany Decatur Daily,1972,1961.0
+Alabama,Albertville,Albertville Sand Mountain Reporter,2014,1862.0
+Alabama,Albertville,Albertville Sand Mountain Reporter,2015,1271.0
+Alabama,Albertville,Albertville Sand Mountain Reporter,2016,1296.0
+Alabama,Albertville,Albertville Sand Mountain Reporter,2017,1322.0
+Alabama,Albertville,Albertville Sand Mountain Reporter,2018,1513.0
+Alabama,Anniston,Anniston Evening Star,1900,2668.0
+Alabama,Anniston,Anniston Evening Star,1901,2376.0
+Alabama,Anniston,Anniston Evening Star,1902,2534.0
+Alabama,Anniston,Anniston Evening Star,1903,2194.0
+Alabama,Anniston,Anniston Evening Star,1906,2456.0
+Alabama,Anniston,Anniston Evening Star,1907,2513.0
+Alabama,Anniston,Anniston Evening Star,1909,2632.0
+Alabama,Anniston,Anniston Evening Star,1910,2663.0
+Alabama,Anniston,Anniston Evening Star,1911,2702.0
+Alabama,Anniston,Anniston Evening Star,1914,3331.0
+Alabama,Anniston,Anniston Evening Star,1916,2796.0
+Alabama,Anniston,Anniston Evening Star,1917,3143.0
+Alabama,Anniston,Anniston Evening Star and Daily Hot Blast,1903,2131.0
+Alabama,Anniston,Anniston Evening Star and Daily Hot Blast,1911,2955.0
+Alabama,Anniston,Anniston Evening Star and Daily Hot Blast,1914,3225.0
+Alabama,Anniston,Anniston Evening Star and Daily Hot Blast,1915,2833.0
+Alabama,Anniston,Anniston Evening Star and Daily Hot Blast,1916,2955.0
+Alabama,Anniston,Anniston Evening Star and Daily Hot Blast,1917,2888.0
+Alabama,Anniston,Anniston Republic,1903,3567.0
+Alabama,Anniston,Anniston Semi Weekly Republic,1911,3684.0
+Alabama,Anniston,Anniston Star,1900,2390.0
+Alabama,Anniston,Anniston Star,1917,3287.0
+Alabama,Anniston,Anniston Star,1918,3185.0
+Alabama,Anniston,Anniston Star,1919,3009.0
+Alabama,Anniston,Anniston Star,1920,3006.0
+Alabama,Anniston,Anniston Star,1921,3365.0
+Alabama,Anniston,Anniston Star,1922,3694.0
+Alabama,Anniston,Anniston Star,1923,3482.0
+Alabama,Anniston,Anniston Star,1924,3652.0
+Alabama,Anniston,Anniston Star,1925,3567.0
+Alabama,Anniston,Anniston Star,1926,3424.0
+Alabama,Anniston,Anniston Star,1927,3393.0
+Alabama,Anniston,Anniston Star,1928,3317.0
+Alabama,Anniston,Anniston Star,1929,3341.0
+Alabama,Anniston,Anniston Star,1930,3340.0
+Alabama,Anniston,Anniston Star,1931,3526.0
+Alabama,Anniston,Anniston Star,1932,3592.0
+Alabama,Anniston,Anniston Star,1933,3413.0
+Alabama,Anniston,Anniston Star,1934,3342.0
+Alabama,Anniston,Anniston Star,1935,3383.0
+Alabama,Anniston,Anniston Star,1936,3366.0
+Alabama,Anniston,Anniston Star,1937,3421.0
+Alabama,Anniston,Anniston Star,1938,3498.0
+Alabama,Anniston,Anniston Star,1939,3602.0
+Alabama,Anniston,Anniston Star,1940,3405.0
+Alabama,Anniston,Anniston Star,1941,3224.0
+Alabama,Anniston,Anniston Star,1942,3264.0
+Alabama,Anniston,Anniston Star,1943,3270.0
+Alabama,Anniston,Anniston Star,1944,3312.0
+Alabama,Anniston,Anniston Star,1945,3260.0
+Alabama,Anniston,Anniston Star,1946,3078.0
+Alabama,Anniston,Anniston Star,1947,3083.0
+Alabama,Anniston,Anniston Star,1948,3086.0
+Alabama,Anniston,Anniston Star,1949,2948.0
+Alabama,Anniston,Anniston Star,1950,2766.0
+Alabama,Anniston,Anniston Star,1951,2690.0
+Alabama,Anniston,Anniston Star,1952,2580.0
+Alabama,Anniston,Anniston Star,1953,2454.0
+Alabama,Anniston,Anniston Star,1954,2359.0
+Alabama,Anniston,Anniston Star,1955,2334.0
+Alabama,Anniston,Anniston Star,1956,2276.0
+Alabama,Anniston,Anniston Star,1957,1848.0
+Alabama,Anniston,Anniston Star,1958,2154.0
+Alabama,Anniston,Anniston Star,1959,2334.0
+Alabama,Anniston,Anniston Star,1960,2275.0
+Alabama,Anniston,Anniston Star,1961,2319.0
+Alabama,Anniston,Anniston Star,1962,2409.0
+Alabama,Anniston,Anniston Star,1963,2345.0
+Alabama,Anniston,Anniston Star,1964,2204.0
+Alabama,Anniston,Anniston Star,1965,2042.0
+Alabama,Anniston,Anniston Star,1966,1947.0
+Alabama,Anniston,Anniston Star,1967,1971.0
+Alabama,Anniston,Anniston Star,1968,1828.0
+Alabama,Anniston,Anniston Star,1969,1826.0
+Alabama,Anniston,Anniston Star,1970,1851.0
+Alabama,Anniston,Anniston Star,1971,1878.0
+Alabama,Anniston,Anniston Star,1972,1786.0
+Alabama,Anniston,Anniston Star,1973,1818.0
+Alabama,Anniston,Anniston Star,1974,2260.0
+Alabama,Anniston,Anniston Star,1975,2203.0
+Alabama,Anniston,Anniston Star,1976,2102.0
+Alabama,Anniston,Anniston Star,2007,1977.0
+Alabama,Anniston,Anniston Star,2009,1839.0
+Alabama,Anniston,Anniston Star,2012,1871.0
+Alabama,Anniston,Anniston Star,2013,1884.0
+Alabama,Anniston,Anniston Sunday Star and Daily Hot Blast,1911,3032.0
+Alabama,Anniston,Anniston Sunday Star and Daily Hot Blast,1914,2833.0
+Alabama,Anniston,Anniston Sunday Star and Daily Hot Blast,1915,2606.0
+Alabama,Anniston,Anniston Sunday Star and Daily Hot Blast,1916,2529.0
+Alabama,Anniston,Anniston Sunday Star and Daily Hot Blast,1917,2770.0
+Alabama,Athens,Athens Alabama Courier,1882,6051.0
+Alabama,Athens,Athens Alabama Courier,1931,3090.0
+Alabama,Athens,Athens Alabama Courier,1941,2922.0
+Alabama,Athens,Athens Alabama Courier,1942,2827.0
+Alabama,Athens,Athens Alabama Courier,1944,2638.0
+Alabama,Athens,Athens Alabama Courier,1945,2220.0
+Alabama,Athens,Athens Alabama Courier,1946,2404.0
+Alabama,Athens,Athens Alabama Courier,1947,2440.0
+Alabama,Athens,Athens Alabama Courier,1948,2377.0
+Alabama,Athens,Athens Alabama Courier,1949,2282.0
+Alabama,Athens,Athens Alabama Courier,1950,2141.0
+Alabama,Athens,Athens Alabama Courier,1951,2203.0
+Alabama,Athens,Athens Alabama Courier,1952,2111.0
+Alabama,Athens,Athens Alabama Courier,1953,2076.0
+Alabama,Athens,Athens Alabama Courier,1954,1916.0
+Alabama,Athens,Athens Alabama Courier,1955,1875.0
+Alabama,Athens,Athens Alabama Courier,1956,1724.0
+Alabama,Athens,Athens Alabama Courier,1957,1941.0
+Alabama,Athens,Athens Alabama Courier,1958,2124.0
+Alabama,Athens,Athens Alabama Courier,1959,2064.0
+Alabama,Athens,Athens Alabama Courier,1960,2063.0
+Alabama,Athens,Athens Alabama Courier,1961,2261.0
+Alabama,Athens,Athens Alabama Courier,1962,2073.0
+Alabama,Athens,Athens Alabama Courier,1963,2076.0
+Alabama,Athens,Athens Alabama Courier,1964,2036.0
+Alabama,Athens,Athens Alabama Courier,1965,2047.0
+Alabama,Athens,Athens Alabama Courier,1966,1909.0
+Alabama,Athens,Athens Alabama Courier,1967,1882.0
+Alabama,Athens,Athens Alabama Courier,1968,1742.0
+Alabama,Athens,Athens Alabama Courier,1971,2738.0
+Alabama,Athens,Athens Alabama Courier,2012,1339.0
+Alabama,Athens,Athens Array,1899,4613.0
+Alabama,Athens,Athens Array,1900,4475.0
+Alabama,Athens,Athens Herald,1856,7012.0
+Alabama,Athens,Athens Limestone County Shopper,1974,1198.0
+Alabama,Athens,Athens Limestone Democrat,1937,3501.0
+Alabama,Athens,Athens Limestone Democrat,1941,3142.0
+Alabama,Athens,Athens Limestone Democrat,1942,2960.0
+Alabama,Athens,Athens Limestone Democrat,1943,2653.0
+Alabama,Athens,Athens Limestone Democrat,1944,2591.0
+Alabama,Athens,Athens Limestone Democrat,1950,2335.0
+Alabama,Athens,Athens Limestone Democrat,1951,2300.0
+Alabama,Athens,Athens Limestone Democrat,1952,2365.0
+Alabama,Athens,Athens Limestone Democrat,1953,2191.0
+Alabama,Athens,Athens Limestone Democrat,1954,2174.0
+Alabama,Athens,Athens Limestone Democrat,1955,2365.0
+Alabama,Athens,Athens Limestone Democrat,1956,2177.0
+Alabama,Athens,Athens Limestone Democrat,1957,2408.0
+Alabama,Athens,Athens Limestone Democrat,1958,2625.0
+Alabama,Athens,Athens Limestone Democrat,1959,2669.0
+Alabama,Athens,Athens Limestone Democrat,1960,2900.0
+Alabama,Athens,Athens Limestone Democrat,1961,2736.0
+Alabama,Athens,Athens Limestone Democrat,1962,2494.0
+Alabama,Athens,Athens Limestone Democrat,1963,2438.0
+Alabama,Athens,Athens Limestone Democrat,1964,2328.0
+Alabama,Athens,Athens Limestone Democrat,1965,2590.0
+Alabama,Athens,Athens Limestone Democrat,1966,2317.0
+Alabama,Athens,Athens Limestone Democrat,1967,2001.0
+Alabama,Athens,Athens Limestone Democrat,1968,1693.0
+Alabama,Athens,Athens Limestone News,1873,6590.0
+Alabama,Athens,Athens News Courier,1968,1677.0
+Alabama,Athens,Athens News Courier,1969,1742.0
+Alabama,Athens,Athens News Courier,1970,2070.0
+Alabama,Athens,Athens News Courier,1971,2020.0
+Alabama,Athens,Athens News Courier,1972,1863.0
+Alabama,Athens,Athens News Courier,1973,1916.0
+Alabama,Athens,Athens News Courier,1974,1819.0
+Alabama,Athens,Athens News Courier,1975,1771.0
+Alabama,Athens,Athens News Courier,1976,1650.0
+Alabama,Athens,Athens News Courier,1977,1669.0
+Alabama,Athens,Athens News Courier,1978,1583.0
+Alabama,Athens,Athens News Courier,1979,1678.0
+Alabama,Athens,Athens News Courier,1998,1957.0
+Alabama,Athens,Athens News Courier,1999,1957.0
+Alabama,Athens,Athens News Courier,2000,1931.0
+Alabama,Athens,Athens News Courier,2001,1917.0
+Alabama,Athens,Athens News Courier,2003,1970.0
+Alabama,Athens,Athens News Courier,2004,1866.0
+Alabama,Athens,Athens News Courier,2005,1827.0
+Alabama,Athens,Athens News Courier,2006,1741.0
+Alabama,Athens,Athens News Courier,2007,1684.0
+Alabama,Athens,Athens News Courier,2008,1540.0
+Alabama,Athens,Athens News Courier,2009,1518.0
+Alabama,Athens,Athens News Courier,2010,1504.0
+Alabama,Athens,Athens News Courier,2011,1528.0
+Alabama,Athens,Athens News Courier,2012,1422.0
+Alabama,Athens,Athens News Courier,2013,1436.0
+Alabama,Athens,Athens News Courier,2014,1467.0
+Alabama,Athens,Athens News Courier,2015,1535.0
+Alabama,Athens,Athens News Courier,2016,1544.0
+Alabama,Athens,Athens News Courier,2017,1605.0
+Alabama,Athens,Athens News Courier,2018,1560.0
+Alabama,Athens,Athens Post,1865,5417.0
+Alabama,Athens,Athens Post,1866,6028.0
+Alabama,Athens,Athens Post,1867,5335.0
+Alabama,Athens,Athens Post,1873,7380.0
+Alabama,Athens,Athens Statesman,1842,3827.0
+Alabama,Athens,Athens Weekly Post,1867,5280.0
+Alabama,Athens,Athens Weekly Post,1868,5084.0
+Alabama,Athens,Limestone Democrat,1941,3034.0
+Alabama,Athens,Limestone Democrat,1943,2576.0
+Alabama,Athens,Limestone Democrat,1947,2002.0
+Alabama,Athens,Limestone Democrat,1948,1937.0
+Alabama,Athens,Limestone Democrat,1949,1964.0
+Alabama,Athens,Limestone Democrat,1955,2793.0
+Alabama,Athens,Limestone Democrat,1956,2355.0
+Alabama,Athens,Limestone Democrat,1957,2618.0
+Alabama,Auburn,Auburn Alabama Polytechnic Institute Plowman,1966,2325.0
+Alabama,Auburn,Auburn Orange and Blue,1963,2730.0
+Alabama,Auburn,Auburn Painsman,1969,1953.0
+Alabama,Auburn,Auburn Perverted Press,1970,1748.0
+Alabama,Auburn,Auburn Plainsman,1922,2121.0
+Alabama,Auburn,Auburn Plainsman,1923,2105.0
+Alabama,Auburn,Auburn Plainsman,1924,2126.0
+Alabama,Auburn,Auburn Plainsman,1925,2640.0
+Alabama,Auburn,Auburn Plainsman,1926,3193.0
+Alabama,Auburn,Auburn Plainsman,1927,3052.0
+Alabama,Auburn,Auburn Plainsman,1928,3137.0
+Alabama,Auburn,Auburn Plainsman,1929,3291.0
+Alabama,Auburn,Auburn Plainsman,1930,3036.0
+Alabama,Auburn,Auburn Plainsman,1931,3180.0
+Alabama,Auburn,Auburn Plainsman,1932,3093.0
+Alabama,Auburn,Auburn Plainsman,1933,3041.0
+Alabama,Auburn,Auburn Plainsman,1934,2928.0
+Alabama,Auburn,Auburn Plainsman,1935,3085.0
+Alabama,Auburn,Auburn Plainsman,1936,2991.0
+Alabama,Auburn,Auburn Plainsman,1937,3003.0
+Alabama,Auburn,Auburn Plainsman,1938,2728.0
+Alabama,Auburn,Auburn Plainsman,1939,2623.0
+Alabama,Auburn,Auburn Plainsman,1940,2247.0
+Alabama,Auburn,Auburn Plainsman,1941,2258.0
+Alabama,Auburn,Auburn Plainsman,1942,2537.0
+Alabama,Auburn,Auburn Plainsman,1943,2570.0
+Alabama,Auburn,Auburn Plainsman,1944,2585.0
+Alabama,Auburn,Auburn Plainsman,1945,2371.0
+Alabama,Auburn,Auburn Plainsman,1946,2164.0
+Alabama,Auburn,Auburn Plainsman,1947,2471.0
+Alabama,Auburn,Auburn Plainsman,1948,2559.0
+Alabama,Auburn,Auburn Plainsman,1949,2466.0
+Alabama,Auburn,Auburn Plainsman,1950,2195.0
+Alabama,Auburn,Auburn Plainsman,1951,2199.0
+Alabama,Auburn,Auburn Plainsman,1952,2277.0
+Alabama,Auburn,Auburn Plainsman,1953,2100.0
+Alabama,Auburn,Auburn Plainsman,1954,2060.0
+Alabama,Auburn,Auburn Plainsman,1955,2143.0
+Alabama,Auburn,Auburn Plainsman,1956,2135.0
+Alabama,Auburn,Auburn Plainsman,1957,2033.0
+Alabama,Auburn,Auburn Plainsman,1958,2124.0
+Alabama,Auburn,Auburn Plainsman,1959,2042.0
+Alabama,Auburn,Auburn Plainsman,1960,2019.0
+Alabama,Auburn,Auburn Plainsman,1961,2001.0
+Alabama,Auburn,Auburn Plainsman,1962,2210.0
+Alabama,Auburn,Auburn Plainsman,1963,2131.0
+Alabama,Auburn,Auburn Plainsman,1964,2042.0
+Alabama,Auburn,Auburn Plainsman,1965,1978.0
+Alabama,Auburn,Auburn Plainsman,1966,1767.0
+Alabama,Auburn,Auburn Plainsman,1967,1584.0
+Alabama,Auburn,Auburn Plainsman,1968,1730.0
+Alabama,Auburn,Auburn Plainsman,1969,1550.0
+Alabama,Auburn,Auburn Plainsman,1970,1532.0
+Alabama,Auburn,Auburn Plainsman,1971,1725.0
+Alabama,Auburn,Auburn Plainsman,1972,1852.0
+Alabama,Auburn,Auburn Plainsman,1973,1674.0
+Alabama,Auburn,Auburn Plainsman,1974,1690.0
+Alabama,Auburn,Auburn Plainsman,1975,2052.0
+Alabama,Auburn,Auburn Plainsman,1976,1820.0
+Alabama,Auburn,Auburn Plainsman,1977,1713.0
+Alabama,Auburn,Auburn Plainsperson,1973,1132.0
+Alabama,Auburn,Auburn Polytechnic Institute Plowman,1966,2387.0
+Alabama,Auburn,Auburn Summer Plainsman,1952,1297.0
+Alabama,Auburn,Auburn Tidesman,1974,1285.0
+Alabama,Auburn,Auburn Ye Plainzmunn,1945,2493.0
+Alabama,Auburn,Auburn Ye Planezuum,1938,2654.0
+Alabama,Birmingham,Birmingham Age Herald,1894,3507.0
+Alabama,Birmingham,Birmingham Age Herald,1895,4011.0
+Alabama,Birmingham,Birmingham Age Herald,1897,4146.0
+Alabama,Birmingham,Birmingham Age Herald,1898,4138.0
+Alabama,Birmingham,Birmingham Age Herald,1899,3790.0
+Alabama,Birmingham,Birmingham Age Herald,1900,3740.0
+Alabama,Birmingham,Birmingham Age Herald,1901,4510.0
+Alabama,Birmingham,Birmingham Age Herald,1902,4667.0
+Alabama,Birmingham,Birmingham Age Herald,1903,4520.0
+Alabama,Birmingham,Birmingham Iron Age,1874,5531.0
+Alabama,Birmingham,Birmingham Iron Age,1875,4741.0
+Alabama,Birmingham,Birmingham Iron Age,1876,4356.0
+Alabama,Birmingham,Birmingham Iron Age,1877,4714.0
+Alabama,Birmingham,Birmingham Iron Age,1878,4490.0
+Alabama,Birmingham,Birmingham Iron Age,1879,4597.0
+Alabama,Birmingham,Birmingham Iron Age,1881,4755.0
+Alabama,Birmingham,Birmingham Iron Age,1882,4363.0
+Alabama,Birmingham,Birmingham Iron Age,1883,2334.0
+Alabama,Birmingham,Birmingham Iron Age,1884,1895.0
+Alabama,Birmingham,Birmingham Iron Age,1885,384.0
+Alabama,Birmingham,Birmingham Progressive Farmer And Southern Farm Gazette,1910,1730.0
+Alabama,Birmingham,Birmingham Progressive Farmer And Southern Farm Gazette,1911,1700.0
+Alabama,Birmingham,Birmingham Progressive Farmer And Southern Farm Gazette,1912,1639.0
+Alabama,Birmingham,Birmingham Progressive Farmer And Southern Farm Gazette,1913,1525.0
+Alabama,Birmingham,Birmingham State Herald,1895,4119.0
+Alabama,Birmingham,Birmingham State Herald,1896,4029.0
+Alabama,Birmingham,Birmingham State Herald,1897,3621.0
+Alabama,Birmingham,Birmingham Weekly Age,1888,1714.0
+Alabama,Birmingham,Birmingham Weekly Age,1889,1305.0
+Alabama,Birmingham,Birmingham Weekly Age,1890,2683.0
+Alabama,Birmingham,Birmingham Weekly Age,1891,901.0
+Alabama,Birmingham,Birmingham Weekly Age,1892,1295.0
+Alabama,Birmingham,Birmingham Weekly Age,1893,2345.0
+Alabama,Birmingham,Birmingham Weekly Age,1894,848.0
+Alabama,Birmingham,Birmingham Weekly Age,1895,657.0
+Alabama,Birmingham,Birmingham Weekly Age,1897,908.0
+Alabama,Birmingham,Birmingham Weekly Age,1898,765.0
+Alabama,Birmingham,Birmingham Weekly Age,1899,602.0
+Alabama,Birmingham,Birmingham Weekly Iron Age,1884,374.0
+Alabama,Birmingham,Birmingham Weekly Iron Age,1885,494.0
+Alabama,Birmingham,Birmingham Weekly Iron Age,1886,844.0
+Alabama,Birmingham,Birmingham Weekly Iron Age,1887,206.0
+Alabama,Clanton,Clanton Union Banner,1914,3171.0
+Alabama,Clanton,Clanton Union Banner,1915,2889.0
+Alabama,Clanton,Clanton Union Banner,1916,4181.0
+Alabama,Clanton,Clanton Union Banner,1917,3506.0
+Alabama,Clanton,Clanton Union Banner,1918,3429.0
+Alabama,Clanton,Clanton Union Banner,1919,2607.0
+Alabama,Clanton,Clanton Union Banner,1920,2802.0
+Alabama,Clanton,Clanton Union Banner,1921,2804.0
+Alabama,Clanton,Clanton Union Banner,1925,2667.0
+Alabama,Clanton,Clanton Union Banner,1926,2721.0
+Alabama,Clanton,Clanton Union Banner,1929,3076.0
+Alabama,Clanton,Clanton Union Banner,1930,3155.0
+Alabama,Clanton,Clanton Union Banner,1931,3380.0
+Alabama,Clanton,Clanton Union Banner,1932,3617.0
+Alabama,Clanton,Clanton Union Banner,1933,3743.0
+Alabama,Clanton,Clanton Union Banner,1934,3648.0
+Alabama,Clanton,Clanton Union Banner,1935,3232.0
+Alabama,Clanton,Clanton Union Banner,1936,2948.0
+Alabama,Clanton,Clanton Union Banner,1937,2988.0
+Alabama,Clanton,Clanton Union Banner,1938,3288.0
+Alabama,Clanton,Clanton Union and Banner,1913,3278.0
+Alabama,Clanton,Clanton Union and Banner,1914,2427.0
+Alabama,Courtland,Courtland Friend Labourer,1879,4676.0
+Alabama,Courtland,Courtland Herald,1830,3742.0
+Alabama,Courtland,Courtland Patriot,1878,6296.0
+Alabama,Courtland,Courtland Patriot,1879,4633.0
+Alabama,Courtland,Courtland Wide A Wake Sentinel,1882,5025.0
+Alabama,Cullman,Cullman Alabama Tribune,1890,6022.0
+Alabama,Cullman,Cullman Alabama Tribune,1891,5529.0
+Alabama,Cullman,Cullman Banner,1937,2394.0
+Alabama,Cullman,Cullman Banner,1938,2264.0
+Alabama,Cullman,Cullman Banner,1942,2433.0
+Alabama,Cullman,Cullman Banner,1943,1988.0
+Alabama,Cullman,Cullman Banner,1944,2193.0
+Alabama,Cullman,Cullman Banner,1945,1920.0
+Alabama,Cullman,Cullman Banner,1946,1280.0
+Alabama,Cullman,Cullman Banner,1947,1231.0
+Alabama,Cullman,Cullman Banner,1948,2029.0
+Alabama,Cullman,Cullman Banner,1949,2128.0
+Alabama,Cullman,Cullman Banner,1950,2055.0
+Alabama,Cullman,Cullman Banner,1951,1984.0
+Alabama,Cullman,Cullman Modernistic Times,1952,2411.0
+Alabama,Cullman,Cullman Mountain City Gazette,1896,2568.0
+Alabama,Cullman,Cullman Southern Immigrant,1877,4582.0
+Alabama,Cullman,Cullman Southern Immigrant,1878,4693.0
+Alabama,Cullman,Cullman Times,1952,2075.0
+Alabama,Cullman,Cullman Times,1953,2162.0
+Alabama,Cullman,Cullman Times,1954,2228.0
+Alabama,Cullman,Cullman Times,1955,2078.0
+Alabama,Cullman,Cullman Times,1956,2001.0
+Alabama,Cullman,Cullman Times,1957,2039.0
+Alabama,Cullman,Cullman Times,1958,1937.0
+Alabama,Cullman,Cullman Times,1959,1784.0
+Alabama,Cullman,Cullman Times,1960,1570.0
+Alabama,Cullman,Cullman Times Democrat,1904,3362.0
+Alabama,Cullman,Cullman Times Democrat,1905,3076.0
+Alabama,Cullman,Cullman Times Democrat,1907,3735.0
+Alabama,Cullman,Cullman Times Democrat,1908,3446.0
+Alabama,Cullman,Cullman Times Democrat,1910,3044.0
+Alabama,Cullman,Cullman Times Democrat,1911,2043.0
+Alabama,Cullman,Cullman Times Democrat,1912,2257.0
+Alabama,Cullman,Cullman Times Democrat,1913,1905.0
+Alabama,Cullman,Cullman Times Democrat,1914,2048.0
+Alabama,Cullman,Cullman Times Democrat,1915,2382.0
+Alabama,Cullman,Cullman Times Democrat,1916,2066.0
+Alabama,Cullman,Cullman Times Democrat,1917,1856.0
+Alabama,Cullman,Cullman Times Democrat,1918,1732.0
+Alabama,Cullman,Cullman Times Democrat,1919,1903.0
+Alabama,Cullman,Cullman Times Democrat,1920,1885.0
+Alabama,Cullman,Cullman Times Democrat,1921,1983.0
+Alabama,Cullman,Cullman Times Democrat,1922,2048.0
+Alabama,Cullman,Cullman Times Democrat,1923,1856.0
+Alabama,Cullman,Cullman Times Democrat,1924,1714.0
+Alabama,Cullman,Cullman Times Democrat,1925,1703.0
+Alabama,Cullman,Cullman Times Democrat,1926,1744.0
+Alabama,Cullman,Cullman Times Democrat,1927,1711.0
+Alabama,Cullman,Cullman Times Democrat,1928,1595.0
+Alabama,Cullman,Cullman Times Democrat,1929,1595.0
+Alabama,Cullman,Cullman Times Democrat,1930,1647.0
+Alabama,Cullman,Cullman Times Democrat,1931,1889.0
+Alabama,Cullman,Cullman Times Democrat,1932,2063.0
+Alabama,Cullman,Cullman Times Democrat,1933,2293.0
+Alabama,Cullman,Cullman Times Democrat,1934,2052.0
+Alabama,Cullman,Cullman Times Democrat,1935,1956.0
+Alabama,Cullman,Cullman Times Democrat,1936,2018.0
+Alabama,Cullman,Cullman Times Democrat,1937,2079.0
+Alabama,Cullman,Cullman Times Democrat,1938,2390.0
+Alabama,Cullman,Cullman Times Democrat,1939,2365.0
+Alabama,Cullman,Cullman Times Democrat,1940,2324.0
+Alabama,Cullman,Cullman Times Democrat,1941,2335.0
+Alabama,Cullman,Cullman Times Democrat,1942,2352.0
+Alabama,Cullman,Cullman Times Democrat,1943,2196.0
+Alabama,Cullman,Cullman Times Democrat,1944,2049.0
+Alabama,Cullman,Cullman Times Democrat,1945,1951.0
+Alabama,Cullman,Cullman Times Democrat,1946,1927.0
+Alabama,Cullman,Cullman Times Democrat,1947,2035.0
+Alabama,Cullman,Cullman Times Democrat,1948,2000.0
+Alabama,Cullman,Cullman Times Democrat,1949,1929.0
+Alabama,Cullman,Cullman Times Democrat,1950,1889.0
+Alabama,Cullman,Cullman Times Democrat,1951,2069.0
+Alabama,Cullman,Cullman Times Democrat,1952,2096.0
+Alabama,Cullman,Cullman Times Democrat,1953,2015.0
+Alabama,Cullman,Cullman Times Democrat,1954,2314.0
+Alabama,Cullman,Cullman Times Democrat,1955,2225.0
+Alabama,Cullman,Cullman Times Democrat,1956,2290.0
+Alabama,Cullman,Cullman Times Democrat,1957,2277.0
+Alabama,Cullman,Cullman Times Democrat,1958,2295.0
+Alabama,Cullman,Cullman Times Democrat,1959,1246.0
+Alabama,Cullman,Cullman Times Democrat,1960,1182.0
+Alabama,Cullman,Cullman Times Democrat,1961,2037.0
+Alabama,Cullman,Cullman Times Democrat,1962,2386.0
+Alabama,Cullman,Cullman Times Democrat,1963,2303.0
+Alabama,Cullman,Cullman Times Democrat,1964,2195.0
+Alabama,Cullman,Cullman Times Democrat,1965,2303.0
+Alabama,Cullman,Cullman Times Democrat,1966,2264.0
+Alabama,Cullman,Cullman Times Democrat,1967,2082.0
+Alabama,Cullman,Cullman Times Democrat,1968,1967.0
+Alabama,Cullman,Cullman Times Democrat,1969,2012.0
+Alabama,Cullman,Cullman Times Democrat,1970,2004.0
+Alabama,Cullman,Cullman Times Democrat,1971,1939.0
+Alabama,Cullman,Cullman Times Democrat,1972,1829.0
+Alabama,Cullman,Cullman Times Democrat,1973,1908.0
+Alabama,Cullman,Cullman Times Democrat,1974,1912.0
+Alabama,Cullman,Cullman Times Democrat,1975,1933.0
+Alabama,Cullman,Cullman Times Democrat,1976,2030.0
+Alabama,Cullman,Cullman Times Democrat,1977,1945.0
+Alabama,Cullman,Cullman Times Democrat,1978,1883.0
+Alabama,Cullman,Cullman Times Democrat,1979,1748.0
+Alabama,Decatur,Decatur Advertiser,1890,4098.0
+Alabama,Decatur,Decatur Advertiser,1899,3786.0
+Alabama,Decatur,Decatur Advertiser,1900,4001.0
+Alabama,Decatur,Decatur Advertiser,1901,4077.0
+Alabama,Decatur,Decatur Advertiser,1902,3802.0
+Alabama,Decatur,Decatur Advertiser,1903,4064.0
+Alabama,Decatur,Decatur Advertiser,1904,4055.0
+Alabama,Decatur,Decatur Advertiser,1905,4022.0
+Alabama,Decatur,Decatur Advertiser,1906,3496.0
+Alabama,Decatur,Decatur Advertiser,1907,3797.0
+Alabama,Decatur,Decatur Advertiser,1908,3978.0
+Alabama,Decatur,Decatur Advertiser,1909,3177.0
+Alabama,Decatur,Decatur Advertiser,1910,3217.0
+Alabama,Decatur,Decatur Advertiser,1911,2811.0
+Alabama,Decatur,Decatur Advertiser,1912,2838.0
+Alabama,Decatur,Decatur Advertiser,1913,3164.0
+Alabama,Decatur,Decatur Advertiser,1914,2756.0
+Alabama,Decatur,Decatur Advertiser,1915,2898.0
+Alabama,Decatur,Decatur Advertiser,1916,3002.0
+Alabama,Decatur,Decatur Daily,1838,3183.0
+Alabama,Decatur,Decatur Daily,1912,2790.0
+Alabama,Decatur,Decatur Daily,1913,2804.0
+Alabama,Decatur,Decatur Daily,1914,2860.0
+Alabama,Decatur,Decatur Daily,1915,2749.0
+Alabama,Decatur,Decatur Daily,1916,2911.0
+Alabama,Decatur,Decatur Daily,1917,3172.0
+Alabama,Decatur,Decatur Daily,1918,2499.0
+Alabama,Decatur,Decatur Daily,1920,1929.0
+Alabama,Decatur,Decatur Daily,1921,2326.0
+Alabama,Decatur,Decatur Daily,1922,2494.0
+Alabama,Decatur,Decatur Daily,1923,2032.0
+Alabama,Decatur,Decatur Daily,1924,2095.0
+Alabama,Decatur,Decatur Daily,1926,2220.0
+Alabama,Decatur,Decatur Daily,1927,2575.0
+Alabama,Decatur,Decatur Daily,1928,2783.0
+Alabama,Decatur,Decatur Daily,1929,3268.0
+Alabama,Decatur,Decatur Daily,1930,3352.0
+Alabama,Decatur,Decatur Daily,1931,2852.0
+Alabama,Decatur,Decatur Daily,1932,2796.0
+Alabama,Decatur,Decatur Daily,1933,2737.0
+Alabama,Decatur,Decatur Daily,1934,2377.0
+Alabama,Decatur,Decatur Daily,1935,2553.0
+Alabama,Decatur,Decatur Daily,1936,3236.0
+Alabama,Decatur,Decatur Daily,1937,3471.0
+Alabama,Decatur,Decatur Daily,1938,3421.0
+Alabama,Decatur,Decatur Daily,1939,3657.0
+Alabama,Decatur,Decatur Daily,1940,3424.0
+Alabama,Decatur,Decatur Daily,1941,3221.0
+Alabama,Decatur,Decatur Daily,1942,2912.0
+Alabama,Decatur,Decatur Daily,1943,3569.0
+Alabama,Decatur,Decatur Daily,1944,3585.0
+Alabama,Decatur,Decatur Daily,1945,3536.0
+Alabama,Decatur,Decatur Daily,1946,3328.0
+Alabama,Decatur,Decatur Daily,1947,3235.0
+Alabama,Decatur,Decatur Daily,1948,3174.0
+Alabama,Decatur,Decatur Daily,1949,3279.0

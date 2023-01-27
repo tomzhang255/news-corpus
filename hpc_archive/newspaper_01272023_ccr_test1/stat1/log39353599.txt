@@ -1,0 +1,27 @@
+STARTED JOB AT: Tue Jan 17 17:07:54 EST 2023
+
+2023-01-17 17:14:25.847633 (meta loaded)
+2023-01-17 17:17:33.029608 (wc loaded). Joining...
+2023-01-17 17:23:29.507902 (joined)
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/stat/stat.py", line 33, in <module>
+    res['Avg_Word_Count'] = res['Avg_Word_Count'].round().astype(int)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/generic.py", line 5912, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/internals/managers.py", line 419, in astype
+    return self.apply("astype", dtype=dtype, copy=copy, errors=errors)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/internals/managers.py", line 304, in apply
+    applied = getattr(b, f)(**kwargs)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/internals/blocks.py", line 580, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/dtypes/cast.py", line 1292, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/dtypes/cast.py", line 1237, in astype_array
+    values = astype_nansafe(values, dtype, copy=copy)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/dtypes/cast.py", line 1148, in astype_nansafe
+    return astype_float_to_int_nansafe(arr, dtype, copy)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/dtypes/cast.py", line 1193, in astype_float_to_int_nansafe
+    raise IntCastingNaNError(
+pandas.errors.IntCastingNaNError: Cannot convert non-finite values (NA or inf) to integer
+FINISHED JOB AT: Tue Jan 17 17:24:46 EST 2023
+

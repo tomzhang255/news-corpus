@@ -1,0 +1,6 @@
+STARTED JOB AT: Tue Jan 17 15:50:39 EST 2023
+
+2023-01-17 15:50:42.572281. Done, 14000 rows in total. Saving...
+2023-01-17 15:50:42.603245. Finished. Time elapsed: 0:00:00.122465
+FINISHED JOB AT: Tue Jan 17 15:50:42 EST 2023
+

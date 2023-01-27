@@ -1,0 +1,43 @@
+STARTED JOB AT: Mon Jan 16 20:13:16 EST 2023
+
+2023-01-16 20:13:21.449010 (reading meta data, all rows)
+2023-01-16 20:20:12.285541 (done reading meta data, 238803125 rows)
+2023-01-16 20:22:06.409013, on 120000000 - 140000000
+Exception in thread Thread-3:
+Traceback (most recent call last):
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/pool.py", line 576, in _handle_results
+    task = get()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/connection.py", line 255, in recv
+    buf = self._recv_bytes()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/connection.py", line 426, in _recv_bytes
+    return self._recv(size)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/connection.py", line 384, in _recv
+    chunk = read(handle, remaining)
+MemoryError
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/pool.py", line 513, in _handle_workers
+    cls._maintain_pool(ctx, Process, processes, pool, inqueue,
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/pool.py", line 337, in _maintain_pool
+    Pool._repopulate_pool_static(ctx, Process, processes, pool,
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/pool.py", line 326, in _repopulate_pool_static
+    w.start()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+slurmstepd: error: *** JOB 39237860 ON holy7c26502 CANCELLED AT 2023-01-17T00:38:46 ***
+slurmstepd: error: *** JOB 39237860 STEPD TERMINATED ON holy7c26502 AT 2023-01-17T00:39:46 DUE TO JOB NOT ENDING WITH SIGNALS ***

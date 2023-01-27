@@ -1,0 +1,24 @@
+STARTED JOB AT: Mon Jan 16 01:12:28 EST 2023
+
+2023-01-16 01:12:31.233475 (reading meta data, all rows)
+Traceback (most recent call last):
+  File "clean.py", line 19, in <module>
+    meta = pd.read_table('/n/henrich_lab/Lab/newspaperarchive_metadata/Harvard_FileDetails.txt', sep='|', encoding='ascii')
+  File "/n/sw/eb/apps/centos7/Anaconda3/2020.11/lib/python3.8/site-packages/pandas/io/parsers.py", line 765, in read_table
+    return read_csv(**locals())
+  File "/n/sw/eb/apps/centos7/Anaconda3/2020.11/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2020.11/lib/python3.8/site-packages/pandas/io/parsers.py", line 458, in _read
+    data = parser.read(nrows)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2020.11/lib/python3.8/site-packages/pandas/io/parsers.py", line 1196, in read
+    ret = self._engine.read(nrows)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2020.11/lib/python3.8/site-packages/pandas/io/parsers.py", line 2155, in read
+    data = self._reader.read(nrows)
+  File "pandas/_libs/parsers.pyx", line 847, in pandas._libs.parsers.TextReader.read
+  File "pandas/_libs/parsers.pyx", line 862, in pandas._libs.parsers.TextReader._read_low_memory
+  File "pandas/_libs/parsers.pyx", line 918, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 905, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas/_libs/parsers.pyx", line 2034, in pandas._libs.parsers.raise_parser_error
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xb4 in position 80639: ordinal not in range(128)
+FINISHED JOB AT: Mon Jan 16 01:13:24 EST 2023
+
