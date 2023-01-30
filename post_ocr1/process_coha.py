@@ -6,7 +6,7 @@ from os import walk
 # concatenate into a giant string
 corpus = ''
 
-BASE = '../data/coha_sample/'
+BASE = 'data/coha_sample/'
 filenames = next(walk(BASE), (None, None, []))[2]  # [] if no file
 
 for filename in filenames:
@@ -27,4 +27,4 @@ dic = dic.loc[dic['nchar'] >= 3]
 dic.drop('nchar', axis=1, inplace=True)
 
 # save
-dic.to_csv('../data/coha_dict.csv', index=False)
+dic.to_csv('data/coha_dict.csv', index=False)

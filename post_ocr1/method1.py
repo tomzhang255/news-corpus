@@ -72,10 +72,10 @@ def post_ocr_processing(ocr_text, df_coha, coha_set):
 
 if __name__ == '__main__':
     # OCR text
-    df_all_ocr = pd.read_csv('../data/res0_4k.csv')
+    df_all_ocr = pd.read_csv('data/res0_4k.csv')
 
     # COHA reference dictionary
-    df_coha = pd.read_csv('../data/coha_dict.csv')
+    df_coha = pd.read_csv('data/coha_dict.csv')
     df_coha['word'] = df_coha['word'].astype('string')
     df_coha.dropna(inplace=True)
 
