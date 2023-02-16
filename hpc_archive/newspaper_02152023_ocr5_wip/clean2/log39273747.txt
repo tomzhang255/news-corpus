@@ -1,0 +1,29 @@
+STARTED JOB AT: Tue Jan 17 02:55:42 EST 2023
+
+2023-01-17 02:55:47.097824 (reading meta data, all rows)
+2023-01-17 03:02:52.545784 (done reading meta data, 238803125 rows)
+2023-01-17 03:04:46.446380, on 220000000 - 238803125
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/n/home13/tomzhang/ccc_lab/newspaper/clean_take2/clean11.py", line 38, in process
+    with open(path_read, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/n/henrich_lab/Lab/newspaperarchive_corpus/150/7175428/413436798.html\x1a'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/clean_take2/clean11.py", line 59, in <module>
+    res = pool.map(process, range(start, end))  # None <- os.cpu_count() <- use all
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+FileNotFoundError: [Errno 2] No such file or directory: '/n/henrich_lab/Lab/newspaperarchive_corpus/150/7175428/413436798.html\x1a'
+FINISHED JOB AT: Tue Jan 17 05:26:09 EST 2023
+

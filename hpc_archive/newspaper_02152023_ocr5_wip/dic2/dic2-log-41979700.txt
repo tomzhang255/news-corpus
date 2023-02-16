@@ -1,0 +1,5 @@
+STARTED JOB AT: Sun Feb 12 18:51:06 EST 2023
+
+/var/slurmd/spool/slurmd/job41979700/slurm_script: line 18:  5560 Killed                  python dic2.py
+FINISHED JOB AT: Sun Feb 12 19:55:57 EST 2023
+

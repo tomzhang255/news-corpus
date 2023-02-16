@@ -1,0 +1,14 @@
+STARTED JOB AT: Mon Feb 13 03:24:34 EST 2023
+
+# documents: 2143277
+2023-02-13 03:35:00.775125; preprocessing starts
+2023-02-13 04:31:08.421440; tokenization done
+2023-02-13 07:37:13.423800; filter done
+2023-02-13 07:37:22.587768; counter done
+2023-02-13 07:38:24.493989; preprocessing ends
+	time elapsed: 4:03:23.718817
+2023-02-13 07:38:24.494015; saving to csv...
+2023-02-13 07:55:41.677103; saved to csv
+	time elapsed: 0:17:17.183063
+FINISHED JOB AT: Mon Feb 13 07:56:22 EST 2023
+

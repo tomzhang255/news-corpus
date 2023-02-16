@@ -1,0 +1,10 @@
+STARTED JOB AT: Sun Feb 12 17:00:35 EST 2023
+
+2023-02-12 17:00:38.288843
+2023-02-12 17:06:20.221845 (meta loaded)
+2023-02-12 17:08:00.431490 (got stratified sample)
+2023-02-12 17:17:59.857912 (saving strat sample with original text)
+2023-02-12 17:35:55.731336 (done)
+Time elapsed: 0:35:17.442493
+FINISHED JOB AT: Sun Feb 12 17:36:25 EST 2023
+

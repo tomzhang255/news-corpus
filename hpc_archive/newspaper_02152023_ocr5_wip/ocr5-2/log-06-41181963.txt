@@ -1,0 +1,5 @@
+STARTED JOB AT: Sat Feb  4 17:18:35 EST 2023
+
+/n/home13/tomzhang/ccc_lab/newspaper/ocr5-2/o06.py:103: DtypeWarning: Columns (1) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv(f'{BASE}res{i}.csv')
+slurmstepd: error: *** JOB 41181963 ON holygpu8a31406 CANCELLED AT 2023-02-10T11:34:51 ***

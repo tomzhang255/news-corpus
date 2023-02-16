@@ -1,0 +1,24 @@
+STARTED JOB AT: Tue Jan 31 11:59:54 EST 2023
+
+             word  nonword_error    corrected
+0               A          False            A
+1            Miff           True         diff
+2               m          False            m
+3     publication          False  publication
+4              p1          False           p1
+...           ...            ...          ...
+1630       phones          False       phones
+1631          194          False          194
+1632          and          False          and
+1633          217          False          217
+1634      Decatur          False      Decatur
+
+[1635 rows x 3 columns]
+====================
+# words: 1635
+# non-word errors: 200
+Non-word error percentage (out of entire text): 0.12232415902140673
+Correctable error percentage (out of all non-word errors): 0.765
+Time elapsed: 0:00:08.308394
+FINISHED JOB AT: Tue Jan 31 12:00:05 EST 2023
+

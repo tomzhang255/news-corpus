@@ -1,0 +1,9 @@
+STARTED JOB AT: Mon Jan 16 01:15:54 EST 2023
+
+2023-01-16 01:15:57.533178 (reading meta data, all rows)
+Traceback (most recent call last):
+  File "clean.py", line 19, in <module>
+    meta = pd.read_csv('/n/henrich_lab/Lab/newspaperarchive_metadata/Harvard_FileDetails.txt', sep='|', errors='ignore')
+TypeError: read_csv() got an unexpected keyword argument 'errors'
+FINISHED JOB AT: Mon Jan 16 01:15:57 EST 2023
+

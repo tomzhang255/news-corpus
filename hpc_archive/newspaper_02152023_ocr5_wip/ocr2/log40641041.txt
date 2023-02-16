@@ -1,0 +1,8 @@
+STARTED JOB AT: Mon Jan 30 21:57:08 EST 2023
+
+2023-01-30 21:57:13.088470 Data read: data/res0_5k.csv
+5000 rows
+Time elapsed: 0:23:02.061970
+FINISHED JOB AT: Mon Jan 30 22:20:15 EST 2023
+
+5000

@@ -1,0 +1,10 @@
+STARTED JOB AT: Mon Jan 16 00:46:15 EST 2023
+
+2023-01-16 00:46:18.576136 (reading meta data, 1000000 rows)
+2023-01-16 00:46:20.408684 (done reading meta data, 1000000 rows)
+Traceback (most recent call last):
+  File "clean.py", line 66, in <module>
+    collect(res)
+NameError: name 'res' is not defined
+FINISHED JOB AT: Mon Jan 16 00:46:21 EST 2023
+

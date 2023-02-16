@@ -1,0 +1,36 @@
+STARTED JOB AT: Mon Jan 16 01:04:02 EST 2023
+
+2023-01-16 01:04:04.774494 (reading meta data, all rows)
+Traceback (most recent call last):
+  File "pandas/_libs/parsers.pyx", line 1119, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1244, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "pandas/_libs/parsers.pyx", line 1259, in pandas._libs.parsers.TextReader._string_convert
+  File "pandas/_libs/parsers.pyx", line 1450, in pandas._libs.parsers._string_box_utf8
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb4 in position 7: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "clean.py", line 19, in <module>
+    meta = pd.read_table('/n/henrich_lab/Lab/newspaperarchive_metadata/Harvard_FileDetails.txt', sep='|')
+  File "/n/sw/eb/apps/centos7/Anaconda3/2020.11/lib/python3.8/site-packages/pandas/io/parsers.py", line 765, in read_table
+    return read_csv(**locals())
+  File "/n/sw/eb/apps/centos7/Anaconda3/2020.11/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2020.11/lib/python3.8/site-packages/pandas/io/parsers.py", line 458, in _read
+    data = parser.read(nrows)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2020.11/lib/python3.8/site-packages/pandas/io/parsers.py", line 1196, in read
+    ret = self._engine.read(nrows)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2020.11/lib/python3.8/site-packages/pandas/io/parsers.py", line 2155, in read
+    data = self._reader.read(nrows)
+  File "pandas/_libs/parsers.pyx", line 847, in pandas._libs.parsers.TextReader.read
+  File "pandas/_libs/parsers.pyx", line 862, in pandas._libs.parsers.TextReader._read_low_memory
+  File "pandas/_libs/parsers.pyx", line 941, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1073, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1126, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1244, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "pandas/_libs/parsers.pyx", line 1259, in pandas._libs.parsers.TextReader._string_convert
+  File "pandas/_libs/parsers.pyx", line 1450, in pandas._libs.parsers._string_box_utf8
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb4 in position 7: invalid start byte
+FINISHED JOB AT: Mon Jan 16 01:04:59 EST 2023
+

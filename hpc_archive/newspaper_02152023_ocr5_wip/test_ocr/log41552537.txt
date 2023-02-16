@@ -1,0 +1,8 @@
+STARTED JOB AT: Tue Feb  7 15:40:37 EST 2023
+
+2023-02-07 15:40:51.347896 - subset taken; ready for ocr correction
+562 documents
+2023-02-07 15:43:23.947771 - 50% correction done
+2023-02-07 15:43:24.481977 - result saved
+FINISHED JOB AT: Tue Feb  7 15:43:24 EST 2023
+
