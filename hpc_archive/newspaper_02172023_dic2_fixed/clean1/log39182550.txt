@@ -1,0 +1,5 @@
+STARTED JOB AT: Sun Jan 15 21:13:56 EST 2023
+
+2023-01-15 21:13:58.405377 (reading meta data, 100000 rows)
+2023-01-15 21:13:58.582364 (done reading meta data, 100000 rows)
+slurmstepd: error: *** JOB 39182550 ON holy7c04103 CANCELLED AT 2023-01-15T21:27:09 ***

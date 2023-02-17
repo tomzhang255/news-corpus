@@ -1,0 +1,12 @@
+STARTED JOB AT: Mon Jan 30 21:40:48 EST 2023
+
+/n/home13/tomzhang/ccc_lab/newspaper/ocr2/ocr2.py:91: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sub['text'] = pd.Series(res, index=sub.index)
+Time elapsed: 0:00:51.079673
+FINISHED JOB AT: Mon Jan 30 21:41:42 EST 2023
+
+100

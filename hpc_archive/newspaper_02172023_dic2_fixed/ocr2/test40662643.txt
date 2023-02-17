@@ -1,0 +1,14 @@
+STARTED JOB AT: Tue Jan 31 01:54:51 EST 2023
+
+1001
+/n/home13/tomzhang/ccc_lab/newspaper/ocr2/test.py:79: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  df_ocr_text.loc[df_ocr_text['nonword_error'], 'corrected'] = pd.Series(res, index=error_series.index)
+/n/home13/tomzhang/ccc_lab/newspaper/ocr2/test.py:104: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sub['text'] = sub['text'].apply(post_ocr_processing)
+Time elapsed: 0:12:20.649729
+FINISHED JOB AT: Tue Jan 31 02:07:15 EST 2023
+

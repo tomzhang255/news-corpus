@@ -1,0 +1,10 @@
+STARTED JOB AT: Tue Jan 17 02:55:19 EST 2023
+
+2023-01-17 02:55:24.123868 (reading meta data, all rows)
+2023-01-17 03:01:45.683622 (done reading meta data, 238803125 rows)
+2023-01-17 03:03:33.433343, on 120000000 - 130000000
+2023-01-17 04:15:26.848035 (saving csv 6a: 120000000 - 130000000)
+2023-01-17 05:03:06.598495 (script finished)
+Total time elapsed: 2:07:42.474627
+FINISHED JOB AT: Tue Jan 17 05:03:46 EST 2023
+

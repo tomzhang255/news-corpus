@@ -1,0 +1,20 @@
+STARTED JOB AT: Sun Feb  5 10:44:21 EST 2023
+
+/n/home13/tomzhang/ccc_lab/newspaper/ocr5-2/o16.py:103: DtypeWarning: Columns (1) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv(f'{BASE}res{i}.csv')
+2023-02-05 11:49:57.017139 Data read: 2_16, 16000000-17000000
+1000000 rows
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/ocr5-2/o16.py", line 115, in <module>
+    df_all_ocr.to_csv(f'/n/henrich_lab/Lab/ocr/ocr{i}_{j}.csv', index=False)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/generic.py", line 3551, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/formats/format.py", line 1180, in to_csv
+    csv_formatter.save()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 241, in save
+    with get_handle(
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/common.py", line 789, in get_handle
+    handle = open(
+OSError: [Errno 28] No space left on device: '/n/henrich_lab/Lab/ocr/ocr2_16.csv'
+FINISHED JOB AT: Wed Feb  8 19:14:13 EST 2023
+

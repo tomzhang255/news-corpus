@@ -1,0 +1,5 @@
+STARTED JOB AT: Tue Jan 31 11:37:54 EST 2023
+
+2023-01-31 11:37:57.683583 Data read: data/res0_5k.csv
+100 rows
+slurmstepd: error: *** JOB 40687194 ON holy7c26410 CANCELLED AT 2023-01-31T11:47:17 ***

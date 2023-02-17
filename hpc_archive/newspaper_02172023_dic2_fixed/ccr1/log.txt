@@ -1,0 +1,12 @@
+CCR:
+    using "all-MiniLM-L6-v2":
+        # documents: 10
+        time elapsed: 12 seconds
+        # documents: 100
+        time elapsed: 83 seconds
+        # documents: 1000
+        time elapsed: 15 minutes
+    using "multi-qa-MiniLM-L6-cos-v1":
+        # documents: 1000
+        time elapsed: 37 minutes
+Dictionary: 5 minutes

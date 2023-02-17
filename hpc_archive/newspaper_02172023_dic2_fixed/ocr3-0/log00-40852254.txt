@@ -1,0 +1,28 @@
+STARTED JOB AT: Tue Jan 31 23:52:34 EST 2023
+
+2023-02-01 00:22:10.516816 Data read: 0_0, 0-1000000
+1000001 rows
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/n/home13/tomzhang/ccc_lab/newspaper/ocr3-0/o00.py", line 65, in post_ocr_processing
+    df_ocr_text = pd.DataFrame(ocr_text.split(), columns=['word'])
+AttributeError: 'float' object has no attribute 'split'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/ocr3-0/o00.py", line 108, in <module>
+    res = pool.map(post_ocr_processing, df_all_ocr['text'])
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+AttributeError: 'float' object has no attribute 'split'
+FINISHED JOB AT: Fri Feb  3 00:20:11 EST 2023
+

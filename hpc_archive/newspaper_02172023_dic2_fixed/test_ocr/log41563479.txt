@@ -1,0 +1,19 @@
+STARTED JOB AT: Tue Feb  7 17:32:18 EST 2023
+
+2023-02-07 17:32:31.271627 - subset taken; ready for ocr correction
+1000 documents
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/test_ocr/test1.py", line 114, in <module>
+    sub['corrected'] = sub['text'].apply(post_ocr_processing1)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/series.py", line 4433, in apply
+    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/apply.py", line 1082, in apply
+    return self.apply_standard()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/apply.py", line 1137, in apply_standard
+    mapped = lib.map_infer(
+  File "pandas/_libs/lib.pyx", line 2870, in pandas._libs.lib.map_infer
+  File "/n/home13/tomzhang/ccc_lab/newspaper/test_ocr/test1.py", line 59, in post_ocr_processing1
+    df_ocr_text = pd.DataFrame(ocr_text.split(), columns=['word'])
+AttributeError: 'float' object has no attribute 'split'
+FINISHED JOB AT: Tue Feb  7 17:39:12 EST 2023
+

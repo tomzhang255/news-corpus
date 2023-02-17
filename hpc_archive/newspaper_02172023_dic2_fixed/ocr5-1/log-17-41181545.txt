@@ -1,0 +1,18 @@
+STARTED JOB AT: Mon Feb  6 13:16:20 EST 2023
+
+2023-02-06 14:17:05.660626 Data read: 1_17, 17000000-18000000
+1000000 rows
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/ocr5-1/o17.py", line 115, in <module>
+    df_all_ocr.to_csv(f'/n/henrich_lab/Lab/ocr/ocr{i}_{j}.csv', index=False)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/generic.py", line 3551, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/formats/format.py", line 1180, in to_csv
+    csv_formatter.save()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 241, in save
+    with get_handle(
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/common.py", line 789, in get_handle
+    handle = open(
+OSError: [Errno 28] No space left on device: '/n/henrich_lab/Lab/ocr/ocr1_17.csv'
+FINISHED JOB AT: Wed Feb  8 14:21:10 EST 2023
+

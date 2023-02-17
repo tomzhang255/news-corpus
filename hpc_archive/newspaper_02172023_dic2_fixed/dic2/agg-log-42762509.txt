@@ -1,0 +1,42 @@
+STARTED JOB AT: Fri Feb 17 15:11:59 EST 2023
+
+/n/home13/tomzhang/ccc_lab/newspaper/dic2/agg.py:10: DtypeWarning: Columns (0,2) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv('/n/henrich_lab/Lab/clean/dic2.csv')
+dic2.csv shape: (2807017, 156); #na: path_id           663740
+year              663740
+text              663740
+encourage         663740
+allowed           663740
+                   ...  
+autonomously      663740
+broadmindedly     663740
+customizing       663740
+customization     663740
+transformative    663740
+Length: 156, dtype: int64
+fixed dic2.csv shape: (2143277, 156); #na: path_id           0
+year              0
+text              0
+encourage         0
+allowed           0
+                 ..
+autonomously      0
+broadmindedly     0
+customizing       0
+customization     0
+transformative    0
+Length: 156, dtype: int64
+     year  percent_dic_occurrence
+0  1736.0                0.002049
+1  1737.0                0.003063
+2  1738.0                0.002607
+3  1739.0                0.004168
+4  1740.0                0.003653
+       year  percent_dic_occurrence
+276  2018.0                0.021270
+277  2019.0                0.017588
+278  2020.0                0.014795
+279  2021.0                0.018247
+280  2022.0                0.015224
+FINISHED JOB AT: Fri Feb 17 16:05:12 EST 2023
+
