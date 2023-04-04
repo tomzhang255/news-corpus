@@ -1,0 +1,10 @@
+sbatch o00.sh
+sbatch o01.sh
+sbatch o02.sh
+sbatch o03.sh
+sbatch o04.sh
+sbatch o05.sh
+sbatch o06.sh
+sbatch o07.sh
+sbatch o08.sh
+sbatch o09.sh

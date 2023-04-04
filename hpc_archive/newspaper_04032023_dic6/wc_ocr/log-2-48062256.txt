@@ -1,0 +1,23 @@
+STARTED JOB AT: Fri Mar 31 02:11:47 EDT 2023
+
+wc2
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/wc_ocr/wc2.py", line 23, in <module>
+    chunk = pd.read_csv(f'{BASE}{f}', dtype=str, lineterminator='\n', on_bad_lines='skip', encoding_errors='ignore')
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 581, in _read
+    return parser.read(nrows)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1254, in read
+    index, columns, col_dict = self._engine.read(nrows)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 225, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 805, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 861, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 847, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas/_libs/parsers.pyx", line 1960, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: EOF inside string starting at row 859128
+FINISHED JOB AT: Fri Mar 31 02:40:45 EDT 2023
+

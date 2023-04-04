@@ -1,0 +1,149 @@
+STARTED JOB AT: Mon Feb 20 08:45:18 EST 2023
+
+===== a chunk =====
+# documents: 999954
+2023-02-20 08:48:40.640377; preprocessing starts
+2023-02-20 09:06:35.117358; tokenization done
+2023-02-20 10:14:26.125454; filter done
+2023-02-20 10:14:29.095548; counter done
+2023-02-20 10:14:54.613541; preprocessing ends
+	time elapsed: 1:26:13.973139
+==========
+===== a chunk =====
+# documents: 999803
+2023-02-20 10:17:17.890086; preprocessing starts
+2023-02-20 10:28:50.193063; tokenization done
+2023-02-20 11:12:12.724356; filter done
+2023-02-20 11:12:17.532908; counter done
+2023-02-20 11:12:44.582974; preprocessing ends
+	time elapsed: 0:55:26.692862
+==========
+===== a chunk =====
+# documents: 999971
+2023-02-20 11:15:35.093839; preprocessing starts
+2023-02-20 11:28:34.743847; tokenization done
+2023-02-20 12:19:35.826472; filter done
+2023-02-20 12:19:39.740414; counter done
+2023-02-20 12:20:07.946809; preprocessing ends
+	time elapsed: 1:04:32.852944
+==========
+===== a chunk =====
+# documents: 994778
+2023-02-20 12:22:23.158634; preprocessing starts
+2023-02-20 12:31:59.157600; tokenization done
+2023-02-20 13:12:22.196907; filter done
+2023-02-20 13:12:26.582552; counter done
+2023-02-20 13:12:55.068893; preprocessing ends
+	time elapsed: 0:50:31.910231
+==========
+===== a chunk =====
+# documents: 1000000
+2023-02-20 13:16:07.218603; preprocessing starts
+2023-02-20 13:31:43.587090; tokenization done
+2023-02-20 14:33:55.538006; filter done
+2023-02-20 14:33:59.603933; counter done
+2023-02-20 14:34:30.723350; preprocessing ends
+	time elapsed: 1:18:23.504717
+==========
+===== a chunk =====
+# documents: 998455
+2023-02-20 14:36:29.566167; preprocessing starts
+2023-02-20 14:44:36.073400; tokenization done
+2023-02-20 15:19:51.850942; filter done
+2023-02-20 15:19:56.567642; counter done
+2023-02-20 15:20:32.319446; preprocessing ends
+	time elapsed: 0:44:02.753254
+==========
+===== a chunk =====
+# documents: 998772
+2023-02-20 15:23:41.250302; preprocessing starts
+2023-02-20 15:38:06.231186; tokenization done
+2023-02-20 16:39:31.723783; filter done
+2023-02-20 16:39:36.552164; counter done
+2023-02-20 16:40:07.952923; preprocessing ends
+	time elapsed: 1:16:26.702591
+==========
+===== a chunk =====
+# documents: 999450
+2023-02-20 16:43:38.566565; preprocessing starts
+2023-02-20 17:00:45.208890; tokenization done
+2023-02-20 18:11:23.571157; filter done
+2023-02-20 18:11:28.402798; counter done
+2023-02-20 18:12:00.899678; preprocessing ends
+	time elapsed: 1:28:22.333084
+==========
+===== a chunk =====
+# documents: 999964
+2023-02-20 18:15:05.085936; preprocessing starts
+2023-02-20 18:30:38.714987; tokenization done
+2023-02-20 19:32:40.439147; filter done
+2023-02-20 19:32:45.487237; counter done
+2023-02-20 19:33:22.157931; preprocessing ends
+	time elapsed: 1:18:17.071961
+==========
+===== a chunk =====
+# documents: 999769
+2023-02-20 19:37:10.592137; preprocessing starts
+2023-02-20 19:56:56.168522; tokenization done
+2023-02-20 21:16:38.867158; filter done
+2023-02-20 21:16:44.107729; counter done
+2023-02-20 21:17:19.610930; preprocessing ends
+	time elapsed: 1:40:09.018764
+==========
+===== a chunk =====
+# documents: 999886
+2023-02-20 21:20:41.208748; preprocessing starts
+2023-02-20 21:36:59.690201; tokenization done
+2023-02-20 22:41:51.766645; filter done
+2023-02-20 22:41:56.511503; counter done
+2023-02-20 22:42:30.293307; preprocessing ends
+	time elapsed: 1:21:49.084534
+==========
+===== a chunk =====
+# documents: 999215
+2023-02-20 22:47:56.788307; preprocessing starts
+2023-02-20 23:15:52.051017; tokenization done
+2023-02-21 00:59:37.947777; filter done
+2023-02-21 00:59:43.761373; counter done
+2023-02-21 01:00:33.284032; preprocessing ends
+	time elapsed: 2:12:36.495694
+==========
+===== a chunk =====
+# documents: 999934
+2023-02-21 01:03:22.473861; preprocessing starts
+2023-02-21 01:16:33.835930; tokenization done
+2023-02-21 02:11:26.277033; filter done
+2023-02-21 02:11:31.550081; counter done
+2023-02-21 02:12:06.194909; preprocessing ends
+	time elapsed: 1:08:43.721021
+==========
+===== a chunk =====
+# documents: 999875
+2023-02-21 02:15:03.859286; preprocessing starts
+2023-02-21 02:28:50.475443; tokenization done
+2023-02-21 03:22:30.807316; filter done
+2023-02-21 03:22:34.696619; counter done
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/dic3/dic3-4.py", line 65, in <module>
+    res = pd.concat([res, res_curr_chunk], axis=0)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 360, in concat
+    return op.get_result()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 595, in get_result
+    new_data = concatenate_managers(
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/internals/concat.py", line 204, in concatenate_managers
+    mgrs_indexers = _maybe_reindex_columns_na_proxy(axes, mgrs_indexers)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/internals/concat.py", line 306, in _maybe_reindex_columns_na_proxy
+    mgr = mgr.reindex_indexer(
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/internals/managers.py", line 675, in reindex_indexer
+    self._consolidate_inplace()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/internals/managers.py", line 1685, in _consolidate_inplace
+    self.blocks = tuple(_consolidate(self.blocks))
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/internals/managers.py", line 2084, in _consolidate
+    merged_blocks = _merge_blocks(
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/internals/managers.py", line 2118, in _merge_blocks
+    new_values = new_values[argsort]
+numpy.core._exceptions._ArrayMemoryError: Unable to allocate 13.8 GiB for an array with shape (143, 12989951) and data type int64
+FINISHED JOB AT: Tue Feb 21 03:23:42 EST 2023
+

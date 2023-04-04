@@ -1,0 +1,8 @@
+STARTED JOB AT: Sat Feb 18 22:09:47 EST 2023
+
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/dic2-1/sum.py", line 11, in <module>
+    print(f'dic2.csv shape: {df.shape}; #na: {df.isna().sum()}')
+AttributeError: 'TextFileReader' object has no attribute 'shape'
+FINISHED JOB AT: Sat Feb 18 22:16:30 EST 2023
+

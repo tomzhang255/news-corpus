@@ -1,0 +1,68 @@
+STARTED JOB AT: Fri Mar 31 19:14:56 EDT 2023
+
+===== a chunk =====
+chunk 0
+# documents: 498996
+2023-03-31 19:16:08.086572; preprocessing starts
+2023-03-31 19:23:53.592005; tokenization done
+2023-03-31 19:42:37.548557; filter done
+2023-03-31 19:42:38.947891; counter done
+2023-03-31 19:42:48.123982; preprocessing ends
+	time elapsed: 0:26:40.037386
+==========
+===== a chunk =====
+chunk 1
+# documents: 493490
+2023-03-31 19:44:08.504907; preprocessing starts
+2023-03-31 19:54:12.506486; tokenization done
+2023-03-31 20:17:13.658563; filter done
+2023-03-31 20:17:16.000595; counter done
+2023-03-31 20:17:25.594330; preprocessing ends
+	time elapsed: 0:33:17.089400
+==========
+===== a chunk =====
+chunk 2
+# documents: 499769
+2023-03-31 20:18:22.472819; preprocessing starts
+2023-03-31 20:25:05.932075; tokenization done
+2023-03-31 20:40:36.532086; filter done
+2023-03-31 20:40:39.313750; counter done
+2023-03-31 20:40:48.462802; preprocessing ends
+	time elapsed: 0:22:25.989961
+==========
+===== a chunk =====
+chunk 3
+# documents: 498901
+2023-03-31 20:41:45.119299; preprocessing starts
+2023-03-31 20:47:59.916177; tokenization done
+2023-03-31 21:03:23.042167; filter done
+2023-03-31 21:03:25.140717; counter done
+2023-03-31 21:03:34.563906; preprocessing ends
+	time elapsed: 0:21:49.444581
+==========
+===== a chunk =====
+chunk 4
+# documents: 499774
+2023-03-31 21:05:32.727589; preprocessing starts
+2023-03-31 21:19:25.701271; tokenization done
+2023-03-31 21:52:37.332711; filter done
+2023-03-31 21:52:39.547693; counter done
+2023-03-31 21:52:49.140067; preprocessing ends
+	time elapsed: 0:47:16.412456
+==========
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/dic5_religiosity/dic5-2.py", line 44, in <module>
+    for df in reader:
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1187, in __next__
+    return self.get_chunk()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1284, in get_chunk
+    return self.read(nrows=size)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1254, in read
+    index, columns, col_dict = self._engine.read(nrows)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/python_parser.py", line 238, in read
+    content = self._get_lines(rows)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/python_parser.py", line 1082, in _get_lines
+    new_rows.append(next(self.data))
+_csv.Error: unexpected end of data
+FINISHED JOB AT: Fri Mar 31 21:53:15 EDT 2023
+

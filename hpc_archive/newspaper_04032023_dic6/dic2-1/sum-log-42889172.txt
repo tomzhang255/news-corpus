@@ -1,0 +1,6 @@
+STARTED JOB AT: Sat Feb 18 19:07:10 EST 2023
+
+/var/slurmd/spool/slurmd/job42889172/slurm_script: line 18:  7672 Killed                  python sum.py
+FINISHED JOB AT: Sat Feb 18 19:20:17 EST 2023
+
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=42889172.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

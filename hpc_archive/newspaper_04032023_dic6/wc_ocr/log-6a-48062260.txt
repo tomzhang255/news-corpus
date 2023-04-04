@@ -1,0 +1,8 @@
+STARTED JOB AT: Fri Mar 31 02:12:27 EDT 2023
+
+wc6a
+saving csv now...
+2023-03-31 04:04:50.370742 (to_csv done)
+Time elapsed: 1:52:20.457266
+FINISHED JOB AT: Fri Mar 31 04:04:56 EDT 2023
+

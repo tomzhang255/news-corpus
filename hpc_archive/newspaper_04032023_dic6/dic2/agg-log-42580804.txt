@@ -1,0 +1,18 @@
+STARTED JOB AT: Thu Feb 16 16:11:36 EST 2023
+
+/n/home13/tomzhang/ccc_lab/newspaper/dic2/agg.py:10: DtypeWarning: Columns (0,2) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv('/n/henrich_lab/Lab/clean/dic2.csv')
+     year  percent_dic_occurrence
+0  1736.0                0.002049
+1  1737.0                0.003063
+2  1738.0                0.002607
+3  1739.0                0.004168
+4  1740.0                0.003653
+       year  percent_dic_occurrence
+276  2018.0                     0.0
+277  2019.0                     0.0
+278  2020.0                     0.0
+279  2021.0                     0.0
+280  2022.0                     0.0
+FINISHED JOB AT: Thu Feb 16 17:00:23 EST 2023
+

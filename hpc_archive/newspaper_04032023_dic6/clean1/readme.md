@@ -1,0 +1,1 @@
+The corpus collection is too large; need to access only parts of it at a time, then save it - then move on to the next chunk. Tried using a while loop here, but run into memory issues.

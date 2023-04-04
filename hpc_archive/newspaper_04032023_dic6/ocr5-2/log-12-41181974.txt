@@ -1,0 +1,25 @@
+STARTED JOB AT: Mon Feb  6 10:13:13 EST 2023
+
+/n/home13/tomzhang/ccc_lab/newspaper/ocr5-2/o12.py:103: DtypeWarning: Columns (1) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv(f'{BASE}res{i}.csv')
+2023-02-06 11:12:02.187960 Data read: 2_12, 12000000-13000000
+1000000 rows
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/ocr5-2/o12.py", line 115, in <module>
+    df_all_ocr.to_csv(f'/n/henrich_lab/Lab/ocr/ocr{i}_{j}.csv', index=False)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/generic.py", line 3551, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/formats/format.py", line 1180, in to_csv
+    csv_formatter.save()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 261, in save
+    self._save()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 266, in _save
+    self._save_body()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 304, in _save_body
+    self._save_chunk(start_i, end_i)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 315, in _save_chunk
+    libwriters.write_csv_rows(
+  File "pandas/_libs/writers.pyx", line 72, in pandas._libs.writers.write_csv_rows
+OSError: [Errno 28] No space left on device
+FINISHED JOB AT: Wed Feb  8 13:08:06 EST 2023
+

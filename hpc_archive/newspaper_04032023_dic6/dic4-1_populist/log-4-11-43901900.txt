@@ -1,0 +1,20 @@
+STARTED JOB AT: Fri Feb 24 18:52:54 EST 2023
+
+2023-02-24 18:52:57.020607 (reading meta data, all rows)
+2023-02-24 19:00:54.417457 (done reading meta data, 238803125 rows)
+2023-02-24 19:03:09.719461, on 220000000 - 238803125
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/dic4-1/dic4-11.py", line 76, in <module>
+    clean = pd.Series(range(start, end)).apply(process).to_list()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/series.py", line 4433, in apply
+    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/apply.py", line 1082, in apply
+    return self.apply_standard()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/apply.py", line 1137, in apply_standard
+    mapped = lib.map_infer(
+  File "pandas/_libs/lib.pyx", line 2870, in pandas._libs.lib.map_infer
+  File "/n/home13/tomzhang/ccc_lab/newspaper/dic4-1/dic4-11.py", line 54, in process
+    with open(path_read, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/n/henrich_lab/Lab/newspaperarchive_corpus/150/7175428/413436798.html\x1a'
+FINISHED JOB AT: Sun Feb 26 03:32:16 EST 2023
+

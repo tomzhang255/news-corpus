@@ -1,0 +1,40 @@
+STARTED JOB AT: Tue Feb 21 01:04:25 EST 2023
+
+===== a chunk =====
+# documents: 999892
+2023-02-21 01:07:13.023983; preprocessing starts
+2023-02-21 01:21:31.379323; tokenization done
+2023-02-21 02:15:41.250796; filter done
+2023-02-21 02:15:43.713671; counter done
+2023-02-21 02:16:11.090443; preprocessing ends
+	time elapsed: 1:08:58.066432
+==========
+===== a chunk =====
+# documents: 999978
+2023-02-21 02:18:23.112442; preprocessing starts
+2023-02-21 02:29:13.055573; tokenization done
+2023-02-21 03:10:31.103732; filter done
+2023-02-21 03:10:35.483622; counter done
+2023-02-21 03:11:02.820224; preprocessing ends
+	time elapsed: 0:52:39.707759
+==========
+===== a chunk =====
+# documents: 999779
+2023-02-21 03:13:59.092043; preprocessing starts
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/dic3/dic3-7a.py", line 50, in <module>
+    df['text'] = df['text'].str.split()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/strings/accessor.py", line 125, in wrapper
+    return func(self, *args, **kwargs)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/strings/accessor.py", line 850, in split
+    result = self._data.array._str_split(pat, n, expand, regex)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/strings/object_array.py", line 341, in _str_split
+    return self._str_map(f, dtype=object)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/strings/object_array.py", line 71, in _str_map
+    result = lib.map_infer_mask(arr, f, mask.view(np.uint8), map_convert)
+  File "pandas/_libs/lib.pyx", line 2822, in pandas._libs.lib.map_infer_mask
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/strings/object_array.py", line 319, in <lambda>
+    f = lambda x: x.split(pat, n)
+MemoryError
+FINISHED JOB AT: Tue Feb 21 03:27:25 EST 2023
+

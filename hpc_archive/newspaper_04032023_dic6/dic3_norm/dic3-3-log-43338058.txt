@@ -1,0 +1,83 @@
+STARTED JOB AT: Tue Feb 21 13:31:44 EST 2023
+
+/n/home13/tomzhang/ccc_lab/newspaper/dic3/dic3-3.py:34: DtypeWarning: Columns (1) have mixed types. Specify dtype option on import or set low_memory=False.
+  for df in reader:
+===== a chunk =====
+chunk 0
+# documents: 999999
+2023-02-21 13:35:50.588065; preprocessing starts
+2023-02-21 14:02:11.721275; tokenization done
+2023-02-21 15:43:15.714503; filter done
+2023-02-21 15:43:19.910970; counter done
+2023-02-21 15:44:17.453013; preprocessing ends
+	time elapsed: 2:08:26.864893
+==========
+===== a chunk =====
+chunk 1
+# documents: 999983
+2023-02-21 15:50:05.265047; preprocessing starts
+2023-02-21 16:24:41.016790; tokenization done
+2023-02-21 18:44:52.443829; filter done
+2023-02-21 18:45:03.872386; counter done
+2023-02-21 18:46:01.497664; preprocessing ends
+	time elapsed: 2:55:56.232581
+==========
+===== a chunk =====
+chunk 2
+# documents: 999916
+2023-02-21 18:49:36.179674; preprocessing starts
+2023-02-21 19:11:42.036609; tokenization done
+2023-02-21 20:49:55.333369; filter done
+2023-02-21 20:50:05.620159; counter done
+2023-02-21 20:51:01.479825; preprocessing ends
+	time elapsed: 2:01:25.300108
+==========
+===== a chunk =====
+chunk 3
+# documents: 999992
+2023-02-21 20:54:34.213280; preprocessing starts
+2023-02-21 21:14:55.652658; tokenization done
+2023-02-21 22:42:13.236785; filter done
+2023-02-21 22:42:21.670548; counter done
+2023-02-21 22:43:18.870756; preprocessing ends
+	time elapsed: 1:48:44.657437
+==========
+===== a chunk =====
+chunk 4
+# documents: 999979
+2023-02-21 22:47:08.451606; preprocessing starts
+2023-02-21 23:09:14.806949; tokenization done
+2023-02-22 00:48:01.098063; filter done
+2023-02-22 00:48:10.357991; counter done
+2023-02-22 00:49:08.114799; preprocessing ends
+	time elapsed: 2:01:59.663157
+==========
+===== a chunk =====
+chunk 5
+# documents: 786425
+2023-02-22 00:51:23.390320; preprocessing starts
+2023-02-22 01:04:27.350622; tokenization done
+2023-02-22 02:10:12.165936; filter done
+2023-02-22 02:10:18.047088; counter done
+2023-02-22 02:10:58.923292; preprocessing ends
+	time elapsed: 1:19:35.532936
+==========
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/dic3/dic3-3.py", line 34, in <module>
+    for df in reader:
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1187, in __next__
+    return self.get_chunk()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1284, in get_chunk
+    return self.read(nrows=size)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1254, in read
+    index, columns, col_dict = self._engine.read(nrows)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 225, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 817, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 861, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 847, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas/_libs/parsers.pyx", line 1960, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Buffer overflow caught - possible malformed input file.
+
+FINISHED JOB AT: Wed Feb 22 02:11:32 EST 2023
+

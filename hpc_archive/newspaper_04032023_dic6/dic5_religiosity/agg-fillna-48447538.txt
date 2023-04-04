@@ -1,0 +1,34 @@
+STARTED JOB AT: Mon Apr  3 18:01:35 EDT 2023
+
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/dic5_religiosity/agg_fillna.py", line 3, in <module>
+    df = pd.read_csv('/n/henrich_lab/Lab/dic5_religiosity/dic5_agg.csv')
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 581, in _read
+    return parser.read(nrows)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1269, in read
+    df = DataFrame(col_dict, columns=columns, index=index)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/frame.py", line 636, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/internals/construction.py", line 502, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/internals/construction.py", line 156, in arrays_to_mgr
+    return create_block_manager_from_column_arrays(
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/internals/managers.py", line 1959, in create_block_manager_from_column_arrays
+    mgr._consolidate_inplace()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/internals/managers.py", line 1685, in _consolidate_inplace
+    self.blocks = tuple(_consolidate(self.blocks))
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/internals/managers.py", line 2084, in _consolidate
+    merged_blocks = _merge_blocks(
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/internals/managers.py", line 2111, in _merge_blocks
+    new_values = np.vstack([b.values for b in blocks])  # type: ignore[misc]
+  File "<__array_function__ internals>", line 5, in vstack
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/numpy/core/shape_base.py", line 282, in vstack
+    return _nx.concatenate(arrs, 0)
+  File "<__array_function__ internals>", line 5, in concatenate
+numpy.core._exceptions._ArrayMemoryError: Unable to allocate 134. GiB for an array with shape (86, 209460387) and data type float64
+FINISHED JOB AT: Mon Apr  3 18:18:52 EDT 2023
+

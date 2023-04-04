@@ -1,0 +1,11 @@
+STARTED JOB AT: Thu Feb 16 22:09:12 EST 2023
+
+/n/home13/tomzhang/ccc_lab/newspaper/dic2/get_subset.py:6: DtypeWarning: Columns (0,2) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv('/n/henrich_lab/Lab/clean/dic2.csv')
+2023-02-16 22:18:04.225910; dic2.csv read
+2023-02-16 22:18:08.290654; 1950 done
+2023-02-16 22:18:11.132365; 1970 done
+2023-02-16 22:18:13.857595; 1990 done
+2023-02-16 22:18:16.229847; 2010 done
+FINISHED JOB AT: Thu Feb 16 22:18:19 EST 2023
+

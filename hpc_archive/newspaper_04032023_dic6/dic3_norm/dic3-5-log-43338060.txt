@@ -1,0 +1,5 @@
+STARTED JOB AT: Tue Feb 21 13:34:22 EST 2023
+
+/n/home13/tomzhang/ccc_lab/newspaper/dic3/dic3-5.py:34: DtypeWarning: Columns (1) have mixed types. Specify dtype option on import or set low_memory=False.
+  for df in reader:
+slurmstepd: error: *** JOB 43338060 ON holygpu8a25105 CANCELLED AT 2023-02-22T09:07:15 ***

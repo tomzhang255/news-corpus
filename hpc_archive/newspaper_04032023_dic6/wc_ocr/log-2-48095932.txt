@@ -1,0 +1,23 @@
+STARTED JOB AT: Fri Mar 31 13:37:25 EDT 2023
+
+wc2
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/wc_ocr/wc2.py", line 23, in <module>
+    chunk = pd.read_csv(f'{BASE}{f}', dtype=str, lineterminator='\n', on_bad_lines='skip', encoding_errors='ignore', engine='python')
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1235, in _make_engine
+    return mapping[engine](f, **self.options)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/python_parser.py", line 105, in __init__
+    self._make_reader(f)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/python_parser.py", line 175, in _make_reader
+    raise ValueError(
+ValueError: Custom line terminators not supported in python parser (yet)
+FINISHED JOB AT: Fri Mar 31 13:37:29 EDT 2023
+

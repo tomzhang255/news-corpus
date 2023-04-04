@@ -1,0 +1,9 @@
+STARTED JOB AT: Sat Feb  4 19:35:07 EST 2023
+
+/n/home13/tomzhang/ccc_lab/newspaper/ocr5-2/o11.py:103: DtypeWarning: Columns (1) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv(f'{BASE}res{i}.csv')
+2023-02-04 20:40:40.069264 Data read: 2_11, 11000000-12000000
+1000000 rows
+Time elapsed: 1 day, 8:59:22.846240
+FINISHED JOB AT: Mon Feb  6 05:40:14 EST 2023
+

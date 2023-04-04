@@ -1,0 +1,6 @@
+STARTED JOB AT: Sat Apr  1 02:42:46 EDT 2023
+
+2023-04-01 02:47:26.968915. Done, 214772808 rows in total. Saving...
+2023-04-01 02:53:50.683586. Finished. Time elapsed: 0:10:59.872187
+FINISHED JOB AT: Sat Apr  1 02:54:03 EDT 2023
+

@@ -1,0 +1,18 @@
+STARTED JOB AT: Mon Feb 20 03:44:43 EST 2023
+
+2023-02-20 03:44:46.136170 (reading meta data, all rows)
+2023-02-20 03:52:54.505812 (done reading meta data, 238803125 rows)
+2023-02-20 03:55:36.822529, on 20000000 - 40000000
+2023-02-21 00:57:54.324464 (saving csv 1: 20000000 - 40000000)
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/dic3-1/dic3-1.py", line 83, in <module>
+    clean = pd.DataFrame(clean, columns=['path_id', 'text'])
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/frame.py", line 694, in __init__
+    mgr = ndarray_to_mgr(
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/internals/construction.py", line 351, in ndarray_to_mgr
+    _check_values_indices_shape_match(values, index, columns)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/internals/construction.py", line 422, in _check_values_indices_shape_match
+    raise ValueError(f"Shape of passed values is {passed}, indices imply {implied}")
+ValueError: Shape of passed values is (20000000, 1), indices imply (20000000, 2)
+FINISHED JOB AT: Tue Feb 21 00:59:21 EST 2023
+

@@ -1,0 +1,5 @@
+STARTED JOB AT: Tue Jan 17 03:14:22 EST 2023
+
+/var/slurmd/spool/slurmd/job39273979/slurm_script: line 18: 50251 Killed                  python wc8.py
+FINISHED JOB AT: Tue Jan 17 04:24:58 EST 2023
+

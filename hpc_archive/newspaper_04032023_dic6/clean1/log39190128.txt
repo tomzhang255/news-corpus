@@ -1,0 +1,28 @@
+STARTED JOB AT: Sun Jan 15 23:45:42 EST 2023
+
+2023-01-15 23:45:45.989397 (reading meta data, 1000000 rows)
+2023-01-15 23:45:47.141339 (done reading meta data, 1000000 rows)
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/n/sw/eb/apps/centos7/Anaconda3/2020.11/lib/python3.8/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/n/sw/eb/apps/centos7/Anaconda3/2020.11/lib/python3.8/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "clean.py", line 44, in process
+    txt = soup.body.get_text()
+AttributeError: 'NoneType' object has no attribute 'get_text'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "clean.py", line 52, in <module>
+    res = Pool(None).map(process, range(len(paths)))  # None <- os.cpu_count() <- use all
+  File "/n/sw/eb/apps/centos7/Anaconda3/2020.11/lib/python3.8/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2020.11/lib/python3.8/multiprocessing/pool.py", line 771, in get
+    raise self._value
+AttributeError: 'NoneType' object has no attribute 'get_text'
+FINISHED JOB AT: Sun Jan 15 23:48:32 EST 2023
+

@@ -1,0 +1,37 @@
+STARTED JOB AT: Fri Feb  3 10:04:02 EST 2023
+
+2023-02-03 10:58:49.962037 Data read: 0_0, 0-100000
+100000 rows
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/n/home13/tomzhang/ccc_lab/newspaper/ocr4-0/o000.py", line 74, in post_ocr_processing
+    df_ocr_text['not_in_set'] = df_ocr_text['word'].apply(lambda word: word not in coha_set)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/series.py", line 4433, in apply
+    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/apply.py", line 1082, in apply
+    return self.apply_standard()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/core/apply.py", line 1137, in apply_standard
+    mapped = lib.map_infer(
+  File "pandas/_libs/lib.pyx", line 2870, in pandas._libs.lib.map_infer
+  File "/n/home13/tomzhang/ccc_lab/newspaper/ocr4-0/o000.py", line 74, in <lambda>
+    df_ocr_text['not_in_set'] = df_ocr_text['word'].apply(lambda word: word not in coha_set)
+NameError: name 'coha_set' is not defined
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/ocr4-0/o000.py", line 113, in <module>
+    res = pool.map(post_ocr_processing, df_all_ocr['text'])
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+NameError: name 'coha_set' is not defined
+FINISHED JOB AT: Fri Feb  3 10:59:39 EST 2023
+

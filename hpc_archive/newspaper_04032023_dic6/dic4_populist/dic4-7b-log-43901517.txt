@@ -1,0 +1,20 @@
+STARTED JOB AT: Fri Feb 24 17:44:48 EST 2023
+
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/dic4/dic4-7b.py", line 33, in <module>
+    with pd.read_csv(f'/n/henrich_lab/Lab/clean/res{i}.csv', dtype=str, chunksize=500000, encoding_errors='ignore', lineterminator='\n') as reader:
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/n/henrich_lab/Lab/clean/res7b.csv'
+FINISHED JOB AT: Fri Feb 24 17:44:50 EST 2023
+

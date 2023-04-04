@@ -1,0 +1,404 @@
+STARTED JOB AT: Fri Mar 31 20:16:29 EDT 2023
+
+===== a chunk =====
+chunk 0
+# documents: 499991
+2023-03-31 20:17:42.931267; preprocessing starts
+2023-03-31 20:23:28.632607; tokenization done
+2023-03-31 20:38:28.590619; filter done
+2023-03-31 20:38:29.647192; counter done
+2023-03-31 20:38:38.952971; preprocessing ends
+	time elapsed: 0:20:56.021662
+==========
+===== a chunk =====
+chunk 1
+# documents: 499966
+2023-03-31 20:39:55.769377; preprocessing starts
+2023-03-31 20:46:35.264123; tokenization done
+2023-03-31 21:01:33.841290; filter done
+2023-03-31 21:01:35.594592; counter done
+2023-03-31 21:01:44.978448; preprocessing ends
+	time elapsed: 0:21:49.209044
+==========
+===== a chunk =====
+chunk 2
+# documents: 499971
+2023-03-31 21:02:47.433107; preprocessing starts
+2023-03-31 21:07:33.244306; tokenization done
+2023-03-31 21:19:33.104633; filter done
+2023-03-31 21:19:35.165254; counter done
+2023-03-31 21:19:44.167629; preprocessing ends
+	time elapsed: 0:16:56.734502
+==========
+===== a chunk =====
+chunk 3
+# documents: 491905
+2023-03-31 21:20:46.844073; preprocessing starts
+2023-03-31 21:25:41.450903; tokenization done
+2023-03-31 21:37:22.656701; filter done
+2023-03-31 21:37:24.483020; counter done
+2023-03-31 21:37:33.858422; preprocessing ends
+	time elapsed: 0:16:47.014325
+==========
+===== a chunk =====
+chunk 4
+# documents: 499418
+2023-03-31 21:38:44.669664; preprocessing starts
+2023-03-31 21:44:14.653056; tokenization done
+2023-03-31 21:57:55.408937; filter done
+2023-03-31 21:57:57.180611; counter done
+2023-03-31 21:58:06.555091; preprocessing ends
+	time elapsed: 0:19:21.885395
+==========
+===== a chunk =====
+chunk 5
+# documents: 499989
+2023-03-31 21:59:27.270242; preprocessing starts
+2023-03-31 22:05:39.064548; tokenization done
+2023-03-31 22:21:39.288470; filter done
+2023-03-31 22:21:41.399169; counter done
+2023-03-31 22:21:50.443692; preprocessing ends
+	time elapsed: 0:22:23.173427
+==========
+===== a chunk =====
+chunk 6
+# documents: 499885
+2023-03-31 22:23:21.981065; preprocessing starts
+2023-03-31 22:30:58.381897; tokenization done
+2023-03-31 22:48:56.963299; filter done
+2023-03-31 22:48:59.307614; counter done
+2023-03-31 22:49:08.590533; preprocessing ends
+	time elapsed: 0:25:46.609444
+==========
+===== a chunk =====
+chunk 7
+# documents: 499998
+2023-03-31 22:50:27.351692; preprocessing starts
+2023-03-31 22:56:32.302423; tokenization done
+2023-03-31 23:11:59.500475; filter done
+2023-03-31 23:12:01.559412; counter done
+2023-03-31 23:12:10.565940; preprocessing ends
+	time elapsed: 0:21:43.214213
+==========
+===== a chunk =====
+chunk 8
+# documents: 499979
+2023-03-31 23:13:20.870678; preprocessing starts
+2023-03-31 23:18:41.374832; tokenization done
+2023-03-31 23:32:23.994188; filter done
+2023-03-31 23:32:25.954870; counter done
+2023-03-31 23:32:35.033650; preprocessing ends
+	time elapsed: 0:19:14.162953
+==========
+===== a chunk =====
+chunk 9
+# documents: 499966
+2023-03-31 23:33:43.983082; preprocessing starts
+2023-03-31 23:39:01.422338; tokenization done
+2023-03-31 23:51:59.182088; filter done
+2023-03-31 23:52:01.297532; counter done
+2023-03-31 23:52:10.467545; preprocessing ends
+	time elapsed: 0:18:26.484428
+==========
+===== a chunk =====
+chunk 10
+# documents: 499989
+2023-03-31 23:53:00.279933; preprocessing starts
+2023-03-31 23:56:51.570754; tokenization done
+2023-04-01 00:06:27.149742; filter done
+2023-04-01 00:06:29.135197; counter done
+2023-04-01 00:06:37.951999; preprocessing ends
+	time elapsed: 0:13:37.672042
+==========
+===== a chunk =====
+chunk 11
+# documents: 499950
+2023-04-01 00:07:22.716911; preprocessing starts
+2023-04-01 00:10:50.153611; tokenization done
+2023-04-01 00:19:33.380071; filter done
+2023-04-01 00:19:34.908883; counter done
+2023-04-01 00:19:43.767729; preprocessing ends
+	time elapsed: 0:12:21.050793
+==========
+===== a chunk =====
+chunk 12
+# documents: 499997
+2023-04-01 00:20:41.564818; preprocessing starts
+2023-04-01 00:24:44.237961; tokenization done
+2023-04-01 00:35:50.901100; filter done
+2023-04-01 00:35:52.428098; counter done
+2023-04-01 00:36:02.390636; preprocessing ends
+	time elapsed: 0:15:20.825787
+==========
+===== a chunk =====
+chunk 13
+# documents: 499998
+2023-04-01 00:37:07.399269; preprocessing starts
+2023-04-01 00:41:50.307524; tokenization done
+2023-04-01 00:54:07.848840; filter done
+2023-04-01 00:54:09.653401; counter done
+2023-04-01 00:54:18.602280; preprocessing ends
+	time elapsed: 0:17:11.202990
+==========
+===== a chunk =====
+chunk 14
+# documents: 499990
+2023-04-01 00:55:43.219054; preprocessing starts
+2023-04-01 01:02:21.560055; tokenization done
+2023-04-01 01:18:28.161800; filter done
+2023-04-01 01:18:29.986221; counter done
+2023-04-01 01:18:39.174909; preprocessing ends
+	time elapsed: 0:22:55.955818
+==========
+===== a chunk =====
+chunk 15
+# documents: 499981
+2023-04-01 01:20:00.330262; preprocessing starts
+2023-04-01 01:26:20.595528; tokenization done
+2023-04-01 01:41:19.145201; filter done
+2023-04-01 01:41:21.295171; counter done
+2023-04-01 01:41:30.592676; preprocessing ends
+	time elapsed: 0:21:30.262391
+==========
+===== a chunk =====
+chunk 16
+# documents: 499995
+2023-04-01 01:43:08.420651; preprocessing starts
+2023-04-01 01:50:51.065075; tokenization done
+2023-04-01 02:10:21.287931; filter done
+2023-04-01 02:10:23.732511; counter done
+2023-04-01 02:10:32.893074; preprocessing ends
+	time elapsed: 0:27:24.472400
+==========
+===== a chunk =====
+chunk 17
+# documents: 499959
+2023-04-01 02:11:49.412420; preprocessing starts
+2023-04-01 02:17:36.080392; tokenization done
+2023-04-01 02:32:03.017752; filter done
+2023-04-01 02:32:05.073362; counter done
+2023-04-01 02:32:14.104847; preprocessing ends
+	time elapsed: 0:20:24.692403
+==========
+===== a chunk =====
+chunk 18
+# documents: 499998
+2023-04-01 02:33:45.729126; preprocessing starts
+2023-04-01 02:40:47.137804; tokenization done
+2023-04-01 02:58:13.919127; filter done
+2023-04-01 02:58:16.118546; counter done
+2023-04-01 02:58:25.180988; preprocessing ends
+	time elapsed: 0:24:39.451839
+==========
+===== a chunk =====
+chunk 19
+# documents: 499991
+2023-04-01 02:59:24.825601; preprocessing starts
+2023-04-01 03:03:48.954014; tokenization done
+2023-04-01 03:14:56.392712; filter done
+2023-04-01 03:14:58.397766; counter done
+2023-04-01 03:15:07.490526; preprocessing ends
+	time elapsed: 0:15:42.664901
+==========
+===== a chunk =====
+chunk 20
+# documents: 499841
+2023-04-01 03:16:11.937596; preprocessing starts
+2023-04-01 03:21:10.532642; tokenization done
+2023-04-01 03:33:24.560164; filter done
+2023-04-01 03:33:26.373172; counter done
+2023-04-01 03:33:35.593777; preprocessing ends
+	time elapsed: 0:17:23.656157
+==========
+===== a chunk =====
+chunk 21
+# documents: 499974
+2023-04-01 03:34:29.498138; preprocessing starts
+2023-04-01 03:38:33.768013; tokenization done
+2023-04-01 03:48:49.904868; filter done
+2023-04-01 03:48:51.609679; counter done
+2023-04-01 03:49:00.563759; preprocessing ends
+	time elapsed: 0:14:31.065598
+==========
+===== a chunk =====
+chunk 22
+# documents: 499987
+2023-04-01 03:50:15.448860; preprocessing starts
+2023-04-01 03:56:06.593938; tokenization done
+2023-04-01 04:10:57.295620; filter done
+2023-04-01 04:10:58.993447; counter done
+2023-04-01 04:11:08.089439; preprocessing ends
+	time elapsed: 0:20:52.640556
+==========
+===== a chunk =====
+chunk 23
+# documents: 499989
+2023-04-01 04:12:24.709425; preprocessing starts
+2023-04-01 04:18:30.081536; tokenization done
+2023-04-01 04:34:15.687006; filter done
+2023-04-01 04:34:17.591102; counter done
+2023-04-01 04:34:26.591692; preprocessing ends
+	time elapsed: 0:22:01.882244
+==========
+===== a chunk =====
+chunk 24
+# documents: 499995
+2023-04-01 04:36:02.390985; preprocessing starts
+2023-04-01 04:43:54.926473; tokenization done
+2023-04-01 05:02:33.943741; filter done
+2023-04-01 05:02:36.184055; counter done
+2023-04-01 05:02:45.350790; preprocessing ends
+	time elapsed: 0:26:42.959780
+==========
+===== a chunk =====
+chunk 25
+# documents: 499998
+2023-04-01 05:04:13.206840; preprocessing starts
+2023-04-01 05:11:09.851327; tokenization done
+2023-04-01 05:29:12.353296; filter done
+2023-04-01 05:29:14.392136; counter done
+2023-04-01 05:29:23.684796; preprocessing ends
+	time elapsed: 0:25:10.477932
+==========
+===== a chunk =====
+chunk 26
+# documents: 499995
+2023-04-01 05:31:16.920015; preprocessing starts
+2023-04-01 05:40:30.274126; tokenization done
+2023-04-01 06:02:44.712987; filter done
+2023-04-01 06:02:47.388319; counter done
+2023-04-01 06:02:56.910438; preprocessing ends
+	time elapsed: 0:31:39.990194
+==========
+===== a chunk =====
+chunk 27
+# documents: 499998
+2023-04-01 06:04:19.966230; preprocessing starts
+2023-04-01 06:10:30.329907; tokenization done
+2023-04-01 06:26:31.559626; filter done
+2023-04-01 06:26:34.051465; counter done
+2023-04-01 06:26:43.145831; preprocessing ends
+	time elapsed: 0:22:23.179576
+==========
+===== a chunk =====
+chunk 28
+# documents: 499993
+2023-04-01 06:28:18.491076; preprocessing starts
+2023-04-01 06:35:59.224912; tokenization done
+2023-04-01 06:55:00.968077; filter done
+2023-04-01 06:55:03.651360; counter done
+2023-04-01 06:55:13.453618; preprocessing ends
+	time elapsed: 0:26:54.962519
+==========
+===== a chunk =====
+chunk 29
+# documents: 499987
+2023-04-01 06:57:44.797339; preprocessing starts
+2023-04-01 07:10:43.971083; tokenization done
+2023-04-01 07:41:03.017252; filter done
+2023-04-01 07:41:05.983202; counter done
+2023-04-01 07:41:16.061177; preprocessing ends
+	time elapsed: 0:43:31.263816
+==========
+===== a chunk =====
+chunk 30
+# documents: 499998
+2023-04-01 07:43:48.019463; preprocessing starts
+2023-04-01 07:56:23.007800; tokenization done
+2023-04-01 08:27:05.233050; filter done
+2023-04-01 08:27:08.986630; counter done
+2023-04-01 08:27:20.044194; preprocessing ends
+	time elapsed: 0:43:32.024706
+==========
+===== a chunk =====
+chunk 31
+# documents: 499994
+2023-04-01 08:28:40.830059; preprocessing starts
+2023-04-01 08:34:21.894711; tokenization done
+2023-04-01 08:49:23.797312; filter done
+2023-04-01 08:49:26.943664; counter done
+2023-04-01 08:49:36.231912; preprocessing ends
+	time elapsed: 0:20:55.401827
+==========
+===== a chunk =====
+chunk 32
+# documents: 499971
+2023-04-01 08:51:48.742110; preprocessing starts
+2023-04-01 09:02:56.001946; tokenization done
+2023-04-01 09:29:18.474689; filter done
+2023-04-01 09:29:21.243116; counter done
+2023-04-01 09:29:31.421538; preprocessing ends
+	time elapsed: 0:37:42.679405
+==========
+===== a chunk =====
+chunk 33
+# documents: 499990
+2023-04-01 09:31:55.885800; preprocessing starts
+2023-04-01 09:44:03.076238; tokenization done
+2023-04-01 10:09:58.576025; filter done
+2023-04-01 10:10:02.203681; counter done
+2023-04-01 10:10:12.355365; preprocessing ends
+	time elapsed: 0:38:16.469540
+==========
+===== a chunk =====
+chunk 34
+# documents: 499985
+2023-04-01 10:11:42.970339; preprocessing starts
+2023-04-01 10:18:50.815961; tokenization done
+2023-04-01 10:35:56.068312; filter done
+2023-04-01 10:35:59.001407; counter done
+2023-04-01 10:36:08.547426; preprocessing ends
+	time elapsed: 0:24:25.577064
+==========
+===== a chunk =====
+chunk 35
+# documents: 499988
+2023-04-01 10:37:23.452759; preprocessing starts
+2023-04-01 10:43:13.672225; tokenization done
+2023-04-01 10:57:38.568040; filter done
+2023-04-01 10:57:40.926671; counter done
+2023-04-01 10:57:50.220887; preprocessing ends
+	time elapsed: 0:20:26.768101
+==========
+===== a chunk =====
+chunk 36
+# documents: 500000
+2023-04-01 10:59:32.633197; preprocessing starts
+2023-04-01 11:07:54.039720; tokenization done
+2023-04-01 11:27:49.483072; filter done
+2023-04-01 11:27:52.200573; counter done
+2023-04-01 11:28:02.229008; preprocessing ends
+	time elapsed: 0:28:29.595777
+==========
+===== a chunk =====
+chunk 37
+# documents: 499992
+2023-04-01 11:30:12.682300; preprocessing starts
+2023-04-01 11:41:41.246963; tokenization done
+2023-04-01 12:08:13.021403; filter done
+2023-04-01 12:08:16.957321; counter done
+2023-04-01 12:08:27.764390; preprocessing ends
+	time elapsed: 0:38:15.082066
+==========
+===== a chunk =====
+chunk 38
+# documents: 499996
+2023-04-01 12:10:03.621769; preprocessing starts
+2023-04-01 12:18:03.623638; tokenization done
+2023-04-01 12:36:13.704751; filter done
+2023-04-01 12:36:16.808589; counter done
+2023-04-01 12:36:26.689575; preprocessing ends
+	time elapsed: 0:26:23.067783
+==========
+===== a chunk =====
+chunk 39
+# documents: 499994
+2023-04-01 12:37:53.175206; preprocessing starts
+2023-04-01 12:45:03.754012; tokenization done
+2023-04-01 13:02:25.638202; filter done
+2023-04-01 13:02:28.326385; counter done
+2023-04-01 13:02:37.921485; preprocessing ends
+	time elapsed: 0:24:44.746256
+==========
+FINISHED JOB AT: Sat Apr  1 13:02:50 EDT 2023
+

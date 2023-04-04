@@ -1,0 +1,38 @@
+STARTED JOB AT: Sat Feb 18 22:51:01 EST 2023
+
+2023-02-18 23:00:40.577605; curr chunk done
+2023-02-18 23:03:23.588803; curr chunk done
+2023-02-18 23:07:34.061006; curr chunk done
+2023-02-18 23:12:35.633863; curr chunk done
+2023-02-18 23:17:58.647152; curr chunk done
+2023-02-18 23:23:03.347026; curr chunk done
+2023-02-18 23:27:49.044609; curr chunk done
+2023-02-18 23:32:14.757852; curr chunk done
+2023-02-18 23:36:15.260423; curr chunk done
+2023-02-18 23:39:34.616055; curr chunk done
+2023-02-18 23:42:18.335017; curr chunk done
+2023-02-18 23:44:41.895442; curr chunk done
+2023-02-18 23:47:05.006006; curr chunk done
+2023-02-18 23:49:29.663744; curr chunk done
+2023-02-18 23:51:21.986197; curr chunk done
+2023-02-18 23:53:11.655038; curr chunk done
+2023-02-18 23:54:50.511223; curr chunk done
+2023-02-18 23:56:24.616446; curr chunk done
+2023-02-18 23:58:05.796887; curr chunk done
+2023-02-18 23:59:36.073688; curr chunk done
+2023-02-19 00:01:01.391654; curr chunk done
+2023-02-19 00:01:43.729593; curr chunk done
+                                 path_id  year  num_hits  num_words
+0  #:\Harvard\150\7173982\382143217.html  1736         2        981
+1  #:\Harvard\104\7152713\330165851.html  1736         3       1762
+2  #:\Harvard\104\7152713\330165809.html  1736         0        374
+3  #:\Harvard\150\7173982\382143219.html  1736         2       1639
+4  #:\Harvard\150\7173982\382143810.html  1736         3       1529
+                                       path_id  year  num_hits  num_words
+2143272  #:\Harvard\165\7176905\433025626.html  2022         0        516
+2143273  #:\Harvard\165\7176967\433224944.html  2022         1        227
+2143274  #:\Harvard\165\7176866\432818820.html  2022         3        640
+2143275  #:\Harvard\164\7177128\433938952.html  2022         2       2844
+2143276  #:\Harvard\165\7176866\432818948.html  2022         0       1736
+FINISHED JOB AT: Sun Feb 19 00:01:58 EST 2023
+

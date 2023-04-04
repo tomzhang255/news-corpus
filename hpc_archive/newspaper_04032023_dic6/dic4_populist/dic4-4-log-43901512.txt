@@ -1,0 +1,6 @@
+STARTED JOB AT: Fri Feb 24 17:35:41 EST 2023
+
+/var/slurmd/spool/slurmd/job43901512/slurm_script: line 18: 41341 Killed                  python dic4-4.py
+FINISHED JOB AT: Sat Feb 25 02:52:36 EST 2023
+
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43901512.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

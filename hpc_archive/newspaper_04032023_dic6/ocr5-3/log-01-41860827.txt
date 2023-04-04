@@ -1,0 +1,3 @@
+STARTED JOB AT: Thu Feb 16 19:14:25 EST 2023
+
+slurmstepd: error: *** JOB 41860827 ON holygpu8a27504 CANCELLED AT 2023-02-18T18:35:06 ***

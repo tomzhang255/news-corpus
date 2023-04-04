@@ -1,0 +1,8 @@
+STARTED JOB AT: Sat Feb 18 22:35:14 EST 2023
+
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/dic2-1/sum.py", line 23, in <module>
+    hits_list = pd.concat([hist_list, hits_curr_chunk])
+NameError: name 'hist_list' is not defined
+FINISHED JOB AT: Sat Feb 18 22:43:32 EST 2023
+

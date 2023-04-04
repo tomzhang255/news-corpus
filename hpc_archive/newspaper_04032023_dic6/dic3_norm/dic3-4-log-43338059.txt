@@ -1,0 +1,173 @@
+STARTED JOB AT: Tue Feb 21 13:32:05 EST 2023
+
+/n/home13/tomzhang/ccc_lab/newspaper/dic3/dic3-4.py:34: DtypeWarning: Columns (1) have mixed types. Specify dtype option on import or set low_memory=False.
+  for df in reader:
+===== a chunk =====
+chunk 0
+# documents: 999954
+2023-02-21 13:34:08.537661; preprocessing starts
+2023-02-21 13:52:19.855427; tokenization done
+2023-02-21 15:00:52.672833; filter done
+2023-02-21 15:00:55.859236; counter done
+2023-02-21 15:01:38.697848; preprocessing ends
+	time elapsed: 1:27:30.160156
+==========
+===== a chunk =====
+chunk 1
+# documents: 999803
+2023-02-21 15:02:56.172973; preprocessing starts
+2023-02-21 15:14:32.893559; tokenization done
+2023-02-21 15:59:26.746497; filter done
+2023-02-21 15:59:32.462339; counter done
+2023-02-21 16:00:15.351704; preprocessing ends
+	time elapsed: 0:57:19.178704
+==========
+===== a chunk =====
+chunk 2
+# documents: 999971
+2023-02-21 16:01:44.264480; preprocessing starts
+2023-02-21 16:14:52.652108; tokenization done
+2023-02-21 17:06:28.184398; filter done
+2023-02-21 17:06:32.352867; counter done
+2023-02-21 17:07:14.590908; preprocessing ends
+	time elapsed: 1:05:30.326404
+==========
+===== a chunk =====
+chunk 3
+# documents: 994778
+2023-02-21 17:09:27.563896; preprocessing starts
+2023-02-21 17:19:10.103552; tokenization done
+2023-02-21 17:59:45.730806; filter done
+2023-02-21 17:59:50.537116; counter done
+2023-02-21 18:00:32.954860; preprocessing ends
+	time elapsed: 0:51:05.390935
+==========
+===== a chunk =====
+chunk 4
+# documents: 1000000
+2023-02-21 18:03:24.962347; preprocessing starts
+2023-02-21 18:18:39.468524; tokenization done
+2023-02-21 19:19:55.664976; filter done
+2023-02-21 19:20:00.464782; counter done
+2023-02-21 19:20:43.040421; preprocessing ends
+	time elapsed: 1:17:18.078051
+==========
+===== a chunk =====
+chunk 5
+# documents: 998455
+2023-02-21 19:21:43.624796; preprocessing starts
+2023-02-21 19:29:55.835595; tokenization done
+2023-02-21 20:04:55.342446; filter done
+2023-02-21 20:05:00.399888; counter done
+2023-02-21 20:05:45.344523; preprocessing ends
+	time elapsed: 0:44:01.719697
+==========
+===== a chunk =====
+chunk 6
+# documents: 998772
+2023-02-21 20:07:20.365227; preprocessing starts
+2023-02-21 20:21:20.204436; tokenization done
+2023-02-21 21:19:30.809408; filter done
+2023-02-21 21:19:35.020252; counter done
+2023-02-21 21:20:18.007165; preprocessing ends
+	time elapsed: 1:12:57.641915
+==========
+===== a chunk =====
+chunk 7
+# documents: 999450
+2023-02-21 21:22:05.472317; preprocessing starts
+2023-02-21 21:38:41.097772; tokenization done
+2023-02-21 22:44:52.856883; filter done
+2023-02-21 22:44:57.660706; counter done
+2023-02-21 22:45:40.772739; preprocessing ends
+	time elapsed: 1:23:35.300390
+==========
+===== a chunk =====
+chunk 8
+# documents: 999964
+2023-02-21 22:47:15.687097; preprocessing starts
+2023-02-21 23:01:34.104713; tokenization done
+2023-02-22 00:01:00.298353; filter done
+2023-02-22 00:01:04.789165; counter done
+2023-02-22 00:01:46.332736; preprocessing ends
+	time elapsed: 1:14:30.645617
+==========
+===== a chunk =====
+chunk 9
+# documents: 999769
+2023-02-22 00:03:39.562523; preprocessing starts
+2023-02-22 00:21:34.696947; tokenization done
+2023-02-22 01:35:44.764685; filter done
+2023-02-22 01:35:49.973351; counter done
+2023-02-22 01:36:32.364588; preprocessing ends
+	time elapsed: 1:32:52.802041
+==========
+===== a chunk =====
+chunk 10
+# documents: 999886
+2023-02-22 01:38:13.430414; preprocessing starts
+2023-02-22 01:53:37.493538; tokenization done
+2023-02-22 02:56:52.776175; filter done
+2023-02-22 02:56:57.037517; counter done
+2023-02-22 02:57:38.648004; preprocessing ends
+	time elapsed: 1:19:25.217567
+==========
+===== a chunk =====
+chunk 11
+# documents: 999215
+2023-02-22 03:00:32.428374; preprocessing starts
+2023-02-22 03:27:49.989825; tokenization done
+2023-02-22 05:10:52.828189; filter done
+2023-02-22 05:10:57.950611; counter done
+2023-02-22 05:11:42.597299; preprocessing ends
+	time elapsed: 2:11:10.168904
+==========
+===== a chunk =====
+chunk 12
+# documents: 999934
+2023-02-22 05:13:11.162002; preprocessing starts
+2023-02-22 05:25:55.828568; tokenization done
+2023-02-22 06:18:14.736983; filter done
+2023-02-22 06:18:19.465250; counter done
+2023-02-22 06:19:00.784210; preprocessing ends
+	time elapsed: 1:05:49.622183
+==========
+===== a chunk =====
+chunk 13
+# documents: 999875
+2023-02-22 06:20:29.161402; preprocessing starts
+2023-02-22 06:33:47.519499; tokenization done
+2023-02-22 07:26:09.242222; filter done
+2023-02-22 07:26:13.068905; counter done
+2023-02-22 07:26:55.643848; preprocessing ends
+	time elapsed: 1:06:26.482420
+==========
+===== a chunk =====
+chunk 14
+# documents: 477272
+2023-02-22 07:27:32.510196; preprocessing starts
+2023-02-22 07:29:52.650693; tokenization done
+2023-02-22 07:40:04.171029; filter done
+2023-02-22 07:40:06.947777; counter done
+2023-02-22 07:40:25.714505; preprocessing ends
+	time elapsed: 0:12:53.204282
+==========
+Traceback (most recent call last):
+  File "/n/home13/tomzhang/ccc_lab/newspaper/dic3/dic3-4.py", line 34, in <module>
+    for df in reader:
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1187, in __next__
+    return self.get_chunk()
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1284, in get_chunk
+    return self.read(nrows=size)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1254, in read
+    index, columns, col_dict = self._engine.read(nrows)
+  File "/n/sw/eb/apps/centos7/Anaconda3/2022.05/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 225, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 817, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 861, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 847, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas/_libs/parsers.pyx", line 1960, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Buffer overflow caught - possible malformed input file.
+
+FINISHED JOB AT: Wed Feb 22 07:40:50 EST 2023
+
