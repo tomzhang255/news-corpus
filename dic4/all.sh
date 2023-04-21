@@ -1,0 +1,9 @@
+sbatch dic4-3.sh
+sbatch dic4-4.sh
+sbatch dic4-5.sh
+sbatch dic4-6a.sh
+sbatch dic4-6b.sh
+sbatch dic4-7a.sh
+sbatch dic4-7b.sh
+sbatch dic4-8.sh
+sbatch dic4-9.sh
